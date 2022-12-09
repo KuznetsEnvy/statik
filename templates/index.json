@@ -47,8 +47,8 @@
           "settings": {
             "collection": "christmas-bundles-2022",
             "label": "",
-            "button_text": "",
-            "button_url": ""
+            "button_text": "See all bundles",
+            "button_url": "shopify:\/\/collections\/christmas-bundles-2022"
           }
         }
       },
@@ -58,7 +58,7 @@
       "settings": {
         "subheading": "statik christmas",
         "title": "Holiday Bundles",
-        "content": "<p><\/p>",
+        "content": "",
         "products_count": 4,
         "products_per_row": 4,
         "stack_products": true,
@@ -91,6 +91,25 @@
             "overlay_opacity": 0
           }
         },
+        "40844899-fc39-479b-9f47-40317560c49d": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/statik-banner-glogo-charge-mobile.webp",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "Fast-charge 6 devices at once.",
+            "title": "Globo Charge",
+            "button_1_text": "Now available",
+            "button_1_link": "shopify:\/\/products\/globocharger",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "b890c296-07eb-4c25-b64e-feab3ffc3b64": {
           "type": "image",
           "settings": {
@@ -108,25 +127,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 28
-          }
-        },
-        "40844899-fc39-479b-9f47-40317560c49d": {
-          "type": "image",
-          "settings": {
-            "mobile_image": "shopify:\/\/shop_images\/SNAP-N-CHARGE.png",
-            "text_position": "bottom_center",
-            "text_position_mobile": "bottom_center",
-            "subheading": "compact and light: it goes everywhere",
-            "title": "Snap-N-Charge",
-            "button_1_text": "shop now",
-            "button_1_link": "shopify:\/\/products\/snap-n-charge-1",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
           }
         },
         "c4da9aca-20c9-4d20-88bd-bfa976a59fe6": {
@@ -151,8 +151,8 @@
       },
       "block_order": [
         "2457107a-1027-4763-88d1-023f330e870b",
-        "b890c296-07eb-4c25-b64e-feab3ffc3b64",
         "40844899-fc39-479b-9f47-40317560c49d",
+        "b890c296-07eb-4c25-b64e-feab3ffc3b64",
         "c4da9aca-20c9-4d20-88bd-bfa976a59fe6"
       ],
       "settings": {
@@ -189,6 +189,25 @@
             "overlay_opacity": 0
           }
         },
+        "1b5b2f90-ad90-4abe-b914-515d764526d9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/statik-banner-glogo-charge-desktop.webp",
+            "text_position": "bottom_right",
+            "text_position_mobile": "middle_center",
+            "subheading": "Fast-charge 6 devices at once.",
+            "title": "Globo Charge",
+            "button_1_text": "Now available",
+            "button_1_link": "shopify:\/\/products\/globocharger",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0": {
           "type": "image",
           "settings": {
@@ -206,25 +225,6 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
-          }
-        },
-        "1b5b2f90-ad90-4abe-b914-515d764526d9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SNAP-N-CHARGE_fd26c8d5-af94-4802-a563-2eaf08bc8e5a.png",
-            "text_position": "middle_center",
-            "text_position_mobile": "middle_center",
-            "subheading": "compact and light: it goes everywhere",
-            "title": "Snap-N-Charge",
-            "button_1_text": "shop now",
-            "button_1_link": "shopify:\/\/products\/snap-n-charge-1",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
           }
         },
         "6dc8c5da-a499-4a32-b71b-3f3c45b709fa": {
@@ -249,8 +249,8 @@
       },
       "block_order": [
         "270c38a0-600c-4239-99e2-e0e78376dfc7",
-        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0",
         "1b5b2f90-ad90-4abe-b914-515d764526d9",
+        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0",
         "6dc8c5da-a499-4a32-b71b-3f3c45b709fa"
       ],
       "settings": {
