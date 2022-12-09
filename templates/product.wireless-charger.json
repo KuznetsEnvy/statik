@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "snap-n-charge-1",
+            "product_2": "private-purple"
+          }
+        },
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b",
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "eed48367-2c25-44da-a1b7-0c71a9cd4a83": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_iPhone_Watch_Airpods_v4_copy_10d0b07e-6858-4c47-a880-0cbc0d77bdcf.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_iPhone_Watch_Airpods_v4.jpg",
+        "subheading": "statik wireless charger",
+        "title": "Safe and quick charge",
+        "content": "<p>Whether you're charging up a phone, tablet or controller, you want to get back in action fast. Plus, it quickly refills its charge when you are done, so you're not stuck waiting by the outlet while everyone else is having fun without you.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "69bbd00e-091d-4e33-9369-35f42e7225c0": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Watch_Airpods_Office_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Watch_Airpods_Office_9aed287f-706d-4378-8d34-2d709b47c90d.jpg",
+        "subheading": "Statik wireless charger",
+        "title": "Perfect for traveling",
+        "content": "<p>It's super easy to take it with you and set it up anywhere. Save space in your bag by carrying only one charger that replaces three!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3c783905-253a-4927-8e47-538f339f2cfc": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Airpods_v2_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Airpods_v2.jpg",
+        "subheading": "statik wireless charger",
+        "title": "Keep a clean and organized place",
+        "content": "<p>Eliminate messy cables forever. Charge three devices at the same time.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7b480380-6758-4c6b-9c99-abb87a2a5ee7": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_iPhone_Watch_Airpods_Office_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_iPhone_Watch_Airpods_Office.jpg",
+        "subheading": "statik wireless charger",
+        "title": "It safely charges your device while you are using it",
+        "content": "<p>Made with a convenient design that stays out of the way while you you work or play. Its strong magnetic connection stays tight.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92": {
+      "type": "gallery",
+      "blocks": {
+        "382c0b3f-a7bb-4c59-b139-d28f4beb0440": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_iPhone_Watch_Airpods.jpg",
+            "caption": ""
+          }
+        },
+        "template--16023434887361__af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92-1669214656459dcaa2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Airpods_Office.jpg",
+            "caption": ""
+          }
+        },
+        "template--16023434887361__af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92-1669214656459dcaa2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Airpods.jpg",
+            "caption": ""
+          }
+        },
+        "template--16023434887361__af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92-1669214656459dcaa2-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_iPhone_Watch_Airpods_Office_67514839-6c94-4fab-ae87-d4361449a2e0.jpg",
+            "caption": ""
+          }
+        },
+        "a55aa95f-06e4-4ddb-8ade-755a31944511": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Airpods_Charger.jpg",
+            "caption": ""
+          }
+        },
+        "cb25370b-27c3-422f-ad66-0d67216579c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_iPhone_WatchVideo.jpg",
+            "caption": ""
+          }
+        },
+        "a5c6f76f-64b3-4f40-b7ab-eb1793eed24f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Solo_v2.jpg",
+            "caption": ""
+          }
+        },
+        "717c744b-3159-42d2-b4a3-d39ab94fd2a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Watch_Airpods_Office.jpg",
+            "caption": ""
+          }
+        },
+        "dde86221-3067-4e39-a335-3fae7752db96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_InUse_Table.jpg",
+            "caption": ""
+          }
+        },
+        "5ddacdfc-53b8-4061-8716-aefcd37af6d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Watch_Office.jpg",
+            "caption": ""
+          }
+        },
+        "986520fb-5ad4-477b-afdf-59eb531dd9f1": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "b64ef45a-62f5-4f98-9639-d456846f6a9f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_WirelessCharge_Product_Charging_Watch_Airpods.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "382c0b3f-a7bb-4c59-b139-d28f4beb0440",
+        "template--16023434887361__af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92-1669214656459dcaa2-0",
+        "template--16023434887361__af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92-1669214656459dcaa2-1",
+        "template--16023434887361__af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92-1669214656459dcaa2-2",
+        "a55aa95f-06e4-4ddb-8ade-755a31944511",
+        "cb25370b-27c3-422f-ad66-0d67216579c2",
+        "a5c6f76f-64b3-4f40-b7ab-eb1793eed24f",
+        "717c744b-3159-42d2-b4a3-d39ab94fd2a7",
+        "dde86221-3067-4e39-a335-3fae7752db96",
+        "5ddacdfc-53b8-4061-8716-aefcd37af6d7",
+        "986520fb-5ad4-477b-afdf-59eb531dd9f1",
+        "b64ef45a-62f5-4f98-9639-d456846f6a9f"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "eed48367-2c25-44da-a1b7-0c71a9cd4a83",
+    "69bbd00e-091d-4e33-9369-35f42e7225c0",
+    "3c783905-253a-4927-8e47-538f339f2cfc",
+    "7b480380-6758-4c6b-9c99-abb87a2a5ee7",
+    "af7e81d8-8ff0-4dbd-9eb0-ac61a165ae92",
+    "judgeme_section_review_widget_2ec6"
+  ]
+}

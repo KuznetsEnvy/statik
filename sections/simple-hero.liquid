@@ -1,0 +1,62 @@
+<div style="height:{{ section.settings.toppadding }}"></div>
+
+<div class="simple-hero-{{ section.id }}">
+  
+  {% if section.settings.image != blank %}<img {% if section.settings.link != blank %}onClick="location.href='{{ section.settings.link }}'"{% endif %} src="{{section.settings.image | img_url:'x1080'}}" class="hide-mobile">{% endif %}
+  {% if section.settings.imagemobile != blank %}<img {% if section.settings.link != blank %}onClick="location.href='{{ section.settings.link }}'"{% endif %} src="{{section.settings.imagemobile | img_url:'x1080'}}" class="hide-desktop">{% endif %}
+
+</div>
+
+
+<div style="height:{{ section.settings.bottompadding }}"></div>
+
+<style>
+.simple-hero-{{ section.id }}{ width: 100% !important; position: relative; }
+
+.simple-hero-{{ section.id }} img{width: 100% !important; }
+
+  {% if section.settings.link != blank %}
+  .simple-hero-{{ section.id }}:hover, .simple-hero-{{ section.id }}:focus{
+    cursor: pointer;
+  }
+  {% endif %}
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Simple Hero",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+      },{
+      "type": "image_picker",
+      "id": "imagemobile",
+      "label": "Image Mobile"
+      },{
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+      },{
+      "type": "text",
+      "id": "bottompadding",
+      "label": "Bottom Padding"
+      },{
+      "type": "text",
+      "id": "toppadding",
+      "label": "Top Padding"
+      },{
+      "type": "text",
+      "id": "buttontext",
+      "label": "Button Text"
+      }],
+	"presets":[{"name": "Simple Hero"}]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

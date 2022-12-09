@@ -1,0 +1,139 @@
+<div class="hide-mobile">
+  
+  <div style="margin-top: 30px; margin-bottom: 30px;">
+  <h3 class="heading h2" style="text-align: center; font-size: 25px;">JOIN THE 5 MILLION PEOPLE<br>WHO LOVE THEIR KEYS</h3>
+  </div>
+
+  <div class="custom-newsletter">
+
+    <img src="https://cdn.shopify.com/s/files/1/0252/5199/files/Banner_Instagram.png?v=1666382303">
+    <div class="custom-newsletter-absolute">
+      <p><b>Get exclusive offers that we only share with our friends.</b>
+       Learn about new products and sales, and get the best new 
+      add-ons for your KeySmart before anyone else.</p>
+
+    {% form 'create_customer' %}
+
+      <div class="email custom-newsletter-email">
+        <label for="email"></label>
+        <input id="email" type="email" name="customer[email]" class="custom-newsletter-email-input" placeholder="Your email"/>
+      </div>
+
+      <div class="submit custom-newsletter-submit">
+        <input type="submit" value="SIGN UP" class="custom-newsletter-submit-input"/>
+      </div>
+  
+    {% endform %}
+    
+    </div>
+  </div>
+</div>
+
+
+<div class="hide-desktop">
+  
+  <div style="margin-top: 30px;">
+  <h3 class="heading h2" style="text-align: center; font-size: 25px;">JOIN THE 5 MILLION PEOPLE<br>WHO LOVE THEIR KEYS</h3>
+  </div>
+
+  <div class="custom-newsletter">
+
+    <img src="https://cdn.shopify.com/s/files/1/0252/5199/files/custom-newsletter.png?v=1664831069">
+    <div class="custom-newsletter-absolute">
+      <p><b>Get exclusive offers that we only share with our friends.</b>
+       Learn about new products and sales, and get the best new 
+      add-ons for your KeySmart before anyone else.</p>
+
+    {% form 'create_customer' %}
+
+      <div class="email custom-newsletter-email">
+        <label for="email"></label>
+        <input id="email" type="email" name="customer[email]" class="custom-newsletter-email-input" placeholder="Your email"/>
+      </div>
+
+      <div class="submit custom-newsletter-submit">
+        <input type="submit" value="SIGN UP" class="custom-newsletter-submit-input"/>
+      </div>
+  
+    {% endform %}
+    
+    </div>
+  </div>
+</div>
+
+<style>
+
+  @media screen and (min-width:676px){
+    .custom-newsletter-absolute{
+        margin-left: 80px;
+      width: 30% !important;
+    
+    }
+  }
+
+  .custom-newsletter-email-input{
+    border-style: none !important;
+    width: 100%;
+    background: none;
+  }
+
+  .custom-newsletter-email{
+    width: 100%;
+    border-style: solid !important;
+    border-width: 0 0 2px 0;
+    border-color: red;
+    background: none;
+  }
+
+  .custom-newsletter-submit{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 20px;
+    background: none;
+    color: black;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-newsletter-absolute{
+    position: absolute;
+    top: 50%;
+    left:20px;
+    width:40%;
+    transform: translate(0,-50%);
+  }
+
+  .custom-newsletter-absolute p{
+    font-size: 16px;
+    color: black;
+    line-height: 1 !important;
+  }
+
+  .custom-newsletter{
+    position: relative;
+  }
+
+  .custom-newsletter img{
+    width: 100%;
+    height: auto;
+  }
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Custom Newsletter",
+    "settings": [],
+	"presets":[{"name": "Custom Newsletter"}]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,281 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "3fe2f18a-b345-489e-8fde-c9256a72ce70": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.pre_quantity_text.value }}<\/p>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "bcd8bf30-bae6-46f9-8547-7c0ec3e7f844": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.pre_button_text.value }}<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
+          }
+        },
+        "a739547c-e2c1-43d9-9964-ac8fa01cad63": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-02.png",
+            "image_alignment": "left",
+            "image_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "3fe2f18a-b345-489e-8fde-c9256a72ce70",
+        "quantity_selector",
+        "bcd8bf30-bae6-46f9-8547-7c0ec3e7f844",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439",
+        "a739547c-e2c1-43d9-9964-ac8fa01cad63"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "magconnect-pro",
+            "product_2": "folding-knife"
+          }
+        },
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b",
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "6c12bc71-8cda-4fa0-af9c-05bddc85284c": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Universal 30w Adapter For Travel & Home",
+        "content": "<p>Whether your traveling around the world or working from home, GloboCharge has the power to keep all your devices juiced.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "797c6a6e-b744-45d7-99a5-6a1a02290922": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-17_at_6.16.26_PM.png",
+        "mobile_image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-04.png",
+        "subheading": "",
+        "title": "Charge Up To 6 Devices At Once",
+        "content": "<p>With a variety of different charging ports, you can simplify your suitcase and keep everything (and everyone) ready to go.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ca3b9358-faa9-4c3d-9402-c665e00c4cf9": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-06_03b0f3bc-8aa8-4d34-9bc8-95621f51bc70.png",
+        "mobile_image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-06.png",
+        "subheading": "",
+        "title": "Made For World Travelers",
+        "content": "<p>Smart, fast, and strong: the perfect travel companion to help keep you fully charged and connected all over the world.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "71bf958f-ffbf-4124-9034-276126bc2cfa": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-17_at_6.18.42_PM.png",
+        "mobile_image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-17_at_6.18.05_PM.png",
+        "subheading": "",
+        "title": "Works In Over 200 Countries  & Regions",
+        "content": "<p>GloboCharge creatively integrates US, UK, EU & AU plugs into a sleek all-in-one unit. It can plug into type A, B, C, D, E, F, G, H, I, J, K, L, M, N, O outlets, and it accpts type A, B, C, E, F, G, I, J, L, and N plugs.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "overlap_left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "466fe45b-9a64-4171-91c9-0ccbf5ef03a2": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-09_79e88287-302a-41b7-b323-0a047dc473a8.png",
+        "mobile_image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-09.png",
+        "subheading": "",
+        "title": "Massive Output To Keep Your Daily Devices Charged",
+        "content": "<p>Unlike other adapters, the GloboCharge has a maximum output of 2500W and 10A, so you can efficiently charge all your devices.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e81646c8-4c8a-41ce-bf02-913604e80966": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-11_a307f817-618f-4c51-aa3e-955a5abefeef.png",
+        "imagemobile": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-11_7c294f4b-fe1e-4d6f-add3-31530325d5f6.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "fbb9f25d-fd34-46fb-9588-d65aef728530": {
+      "type": "simple-hero",
+      "settings": {
+        "imagemobile": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-12_fcabb2be-15cb-4878-a287-35db91e9e624.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "6c12bc71-8cda-4fa0-af9c-05bddc85284c",
+    "797c6a6e-b744-45d7-99a5-6a1a02290922",
+    "ca3b9358-faa9-4c3d-9402-c665e00c4cf9",
+    "71bf958f-ffbf-4124-9034-276126bc2cfa",
+    "466fe45b-9a64-4171-91c9-0ccbf5ef03a2",
+    "e81646c8-4c8a-41ce-bf02-913604e80966",
+    "fbb9f25d-fd34-46fb-9588-d65aef728530",
+    "judgeme_section_review_widget_2ec6"
+  ]
+}

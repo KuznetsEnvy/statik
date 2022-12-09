@@ -1,0 +1,270 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "hyper-mount",
+            "product_2": "snap-n-charge-1"
+          }
+        },
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b",
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "2b5d2bcc-2317-479b-b687-91cd0a8a776b": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_All3_AirPods_iPad_Controller_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Artboard_1_056b0a10-dd66-4432-b0f8-4c3cb52fea40.png",
+        "subheading": "globright cable",
+        "title": "It safely charges your device while you are using it",
+        "content": "<p>Made with a convenient design that stays out of the way while you you work or play. Its strong magnetic connection stays tight.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "overlap_left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "70f7b21f-fd4f-48b3-b4d4-d308e954ef92": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/GLOBRIGHT.jpg",
+        "subheading": "globright cable:",
+        "title": "Safe and quick charge",
+        "content": "<p>Whether you're charging up a phone, tablet or controller, you want to get back in action fast. Plus, it quickly refills its charge when you are done, so you're not stuck waiting by the outlet while everyone else is having fun without you.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "overlap_right",
+        "text_position_mobile": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b0f644a7-095a-46fc-b205-6fcc47819bb1": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Artboard_1_copy_2.png",
+        "mobile_image": "shopify:\/\/shop_images\/Artboard_1_copy.png",
+        "subheading": "globright cable",
+        "title": "Comes in 3 amazing colors for you to choose",
+        "content": "<p>Whatever color you choose, be sure your cable will shine bright and will light up your charging time! Get yours now and charge your cable like never before.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "52d32dd5-5649-4926-a37f-c4a9ffcb9533": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_Strength_Dumbbell.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_Strength_Dumbbell_copy.jpg",
+        "subheading": "Globright cable",
+        "title": "Light Up, Charge Up, Have Fun",
+        "content": "<p>Transform your charging experience by making your room, car and everywhere look awesome! See it in action while it lights up. Easy to Find at Night. Charging is safe for kids - won’t surge or overheat.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "overlap_right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b63d43ab-9455-4c04-92e6-4a91985d4d97": {
+      "type": "gallery",
+      "blocks": {
+        "template--16026197590209__b63d43ab-9455-4c04-92e6-4a91985d4d97-1669145432a719ac3c-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_All3_AirPods_iPad_Controller_copy.jpg",
+            "caption": ""
+          }
+        },
+        "64826e84-d7d4-4024-bad4-72485bf4beaa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_All3_AirPods_iPad_iPhone_copy.jpg",
+            "caption": ""
+          }
+        },
+        "2b811c62-4bd7-4f3b-bd53-3203e6c42698": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_Blue_iPad_copy.jpg",
+            "caption": ""
+          }
+        },
+        "5fd6ffba-2960-49cc-a03a-bda891f6fea3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_Green_ConnectToIPhone_copy.jpg",
+            "caption": ""
+          }
+        },
+        "e86c72dc-5eba-4442-b22b-c394512672a4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_LightCable_Product_Red_CU_RemoveTip_copy.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16026197590209__b63d43ab-9455-4c04-92e6-4a91985d4d97-1669145432a719ac3c-2",
+        "64826e84-d7d4-4024-bad4-72485bf4beaa",
+        "2b811c62-4bd7-4f3b-bd53-3203e6c42698",
+        "5fd6ffba-2960-49cc-a03a-bda891f6fea3",
+        "e86c72dc-5eba-4442-b22b-c394512672a4"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "2b5d2bcc-2317-479b-b687-91cd0a8a776b",
+    "70f7b21f-fd4f-48b3-b4d4-d308e954ef92",
+    "b0f644a7-095a-46fc-b205-6fcc47819bb1",
+    "52d32dd5-5649-4926-a37f-c4a9ffcb9533",
+    "b63d43ab-9455-4c04-92e6-4a91985d4d97",
+    "judgeme_section_review_widget_2ec6"
+  ]
+}

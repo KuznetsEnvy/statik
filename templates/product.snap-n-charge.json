@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "hyper-mount",
+            "product_2": "statik-360-pro"
+          }
+        },
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b",
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "c3e17ffd-55df-40bc-80ff-c8a6a4e70184": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_ChargingIPhone_8903332a-b89a-45f2-809e-31ae62125f3c.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_ChargingIPhone_69de0b04-0fec-486d-9f05-5f63d3b42126.jpg",
+        "subheading": "snap-n-charge",
+        "title": "Safe and quick charge",
+        "content": "<p>Whether you're charging up a phone, tablet or controller, you want to get back in action fast. Plus, it quickly refills its charge when you are done, so you're not stuck waiting by the outlet while everyone else is having fun without you.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2fec9625-d025-4fa7-8b31-1fd08ebc056f": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/snap_n_charge_ef88e110-5469-4da7-8f2d-ef7e3cc76bc8.png",
+        "mobile_image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-22_at_7.04.51_PM.png",
+        "subheading": "snap-n-charge",
+        "title": "Charges everything",
+        "content": "<p>Comes with the three connectors: USB-C, Lightning (Apple) and Micro-USB. Charges your Android, iPhone, Tablets, PS\/Xbox controllers, Windows, Linux, Apple, Samsung, Motorola, Lenovo, LG. Everything.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3ba96977-2cc4-4e83-b72b-434239a75368": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_ChargingPS5Controller_d0a5bf79-9f49-4228-a0c4-6d9b0cb6e6bf.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_ChargingPS5Controller_bfc5be80-170b-4aa5-bbb6-006a2a39073c.jpg",
+        "subheading": "Snap-n-charge",
+        "title": "It safely charges your device while you are using it",
+        "content": "<p>Made with a convenient design that stays out of the way while you you work or play. Its strong magnetic connection stays tight.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "88fb0e09-c93c-4488-97b3-30068339d73e": {
+      "type": "gallery",
+      "blocks": {
+        "template--16026909573313__88fb0e09-c93c-4488-97b3-30068339d73e-1669153701a86c3ed9-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Charge_iPhone_bcc7d73d-4e25-4de2-a60c-0f7108cfe7ee.jpg",
+            "caption": ""
+          }
+        },
+        "23e83329-c1fc-461d-a1ca-1f9dcc61b178": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Charging.jpg",
+            "caption": ""
+          }
+        },
+        "3d98a7ce-ea9d-4edc-b658-3d47fe675e78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Pocket.jpg",
+            "caption": ""
+          }
+        },
+        "template--16026909573313__88fb0e09-c93c-4488-97b3-30068339d73e-1669153701a86c3ed9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Backpack_4da413cf-40de-4174-af3f-bc2010e0b20e.jpg",
+            "caption": ""
+          }
+        },
+        "template--16026909573313__88fb0e09-c93c-4488-97b3-30068339d73e-1669153701a86c3ed9-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Charge_Android_bb1a9246-5d47-40ca-8b3c-bc458a402ec1.jpg",
+            "caption": ""
+          }
+        },
+        "7fd10242-0a67-419d-9a60-40a7fbc0bc3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_ChargingAirPods_2a0e568e-8cae-435f-8d7e-265502c4eb87.jpg",
+            "caption": ""
+          }
+        },
+        "54b1b54b-0921-47c2-ae27-8b63a73d93dd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Office.jpg",
+            "caption": ""
+          }
+        },
+        "a32ba738-afcc-4993-b27c-e6644c198443": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Purse.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16026909573313__88fb0e09-c93c-4488-97b3-30068339d73e-1669153701a86c3ed9-2",
+        "23e83329-c1fc-461d-a1ca-1f9dcc61b178",
+        "3d98a7ce-ea9d-4edc-b658-3d47fe675e78",
+        "template--16026909573313__88fb0e09-c93c-4488-97b3-30068339d73e-1669153701a86c3ed9-0",
+        "template--16026909573313__88fb0e09-c93c-4488-97b3-30068339d73e-1669153701a86c3ed9-1",
+        "7fd10242-0a67-419d-9a60-40a7fbc0bc3a",
+        "54b1b54b-0921-47c2-ae27-8b63a73d93dd",
+        "a32ba738-afcc-4993-b27c-e6644c198443"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "c3e17ffd-55df-40bc-80ff-c8a6a4e70184",
+    "2fec9625-d025-4fa7-8b31-1fd08ebc056f",
+    "3ba96977-2cc4-4e83-b72b-434239a75368",
+    "88fb0e09-c93c-4488-97b3-30068339d73e",
+    "judgeme_section_review_widget_2ec6"
+  ]
+}

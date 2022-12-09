@@ -1,0 +1,79 @@
+<div style="height:{{ section.settings.toppadding }}"></div>
+
+<div class="simple-hero">
+  
+  {% if section.settings.image != blank %}<img src="{{section.settings.image | img_url:'x1080'}}" class="hide-mobile">{% endif %}
+  {% if section.settings.imagemobile != blank %}<img src="{{section.settings.imagemobile | img_url:'x1080'}}" class="hide-desktop">{% endif %}
+
+  {% if section.settings.buttontext != blank %}
+  <div onClick="location.href='{{ section.settings.link }}'" class="simple-featured-collection-mobile-button hide-desktop">{{ section.settings.buttontext }}</div>
+  {% endif %}
+
+
+</div>
+
+
+<div style="height:{{ section.settings.bottompadding }}"></div>
+
+<style>
+.simple-hero{ width: 100% !important; position: relative; }
+.simple-hero img{width: 100% !important; }
+
+    .simple-featured-collection-mobile-button{
+    color: white;
+    background-color:rgba(255,255,255,0.3);
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 75%;
+    border-radius: 80px;
+          position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Footer Hero",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+      },{
+      "type": "image_picker",
+      "id": "imagemobile",
+      "label": "Image Mobile"
+      },{
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+      },{
+      "type": "text",
+      "id": "bottompadding",
+      "label": "Bottom Padding"
+      },{
+      "type": "text",
+      "id": "toppadding",
+      "label": "Top Padding"
+      },{
+      "type": "text",
+      "id": "buttontext",
+      "label": "Button Text"
+      }],
+	"presets":[{"name": "Footer Hero"}]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

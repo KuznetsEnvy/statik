@@ -1,0 +1,342 @@
+<div class="footer--mobile hide-desktop">
+
+  <a href=""><p>About Us</p></a>
+  <a href=""><p>Reviews</p></a>
+  <a href=""><p>Contact Us</p></a>
+  <a href=""><p>Wholesale</p></a>
+  <a href=""><p>Billing Conditions</p></a>
+  
+  <br>
+  {% for block in section.blocks %}
+      {% case block.type %}
+      {% when 'menu'  %}
+         <button class="accordion">{{ block.settings.heading | escape }}</button>
+         <div class="panel">
+            {% for link in linklists[block.settings.footer_nav].links %}
+            <p>{{ link.title | link_to: link.url }}</p>
+            {% endfor %}
+         </div>
+      {% when 'blog'  %}
+      {% when 'text'  %}
+      {% when 'image' %}
+          <div style="display:flex; width:100%;">
+            {% assign media = block.settings.imagefooter %}
+            {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            <img class="main-logo lazyload lazyload-fade"
+                width="{{ media.width }}"
+                height="{{ media.height }}"
+                data-src="{{ img_url }}"
+                data-sizes="auto"
+                data-image-id="{{ media.id }}">
+            <noscript>
+              <img src="{{ media | img_url: '100x' }}" alt="" />
+            </noscript>
+
+          </div>
+          <div style="display: flex; justify-content: center; margin-bottom:10px;">
+              <a href="https://www.instagram.com/floatiekingscustom/">
+                {% assign media = images['icon--ig.png'] %}
+                {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                <img class="mobile--social-media lazyload lazyload-fade"
+                    width="{{ media.width }}"
+                    height="{{ media.height }}"
+                    data-src="{{ img_url }}"
+                     data-sizes="auto"
+                     data-image-id="{{ media.id }}">
+                <noscript>
+                  <img src="{{ media | img_url: '100x' }}" alt="" />
+                </noscript>
+              </a>
+              <a href="//facebook.com/FloatieKingsCustom">
+                {% assign media = images['icon--fb.png'] %}
+                {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                <img class="mobile--social-media lazyload lazyload-fade"
+                    width="{{ media.width }}"
+                    height="{{ media.height }}"
+                    data-src="{{ img_url }}"
+                     data-sizes="auto"
+                     data-image-id="{{ media.id }}">
+                <noscript>
+                  <img src="{{ media | img_url: '100x' }}" alt="" />
+                </noscript>
+              </a>
+              <a href="https://br.pinterest.com/floatiekings/">
+                {% assign media = images['icon--pt.png'] %}
+                {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                <img class="mobile--social-media lazyload lazyload-fade"
+                    width="{{ media.width }}"
+                    height="{{ media.height }}"
+                    data-src="{{ img_url }}"
+                     data-sizes="auto"
+                     data-image-id="{{ media.id }}">
+                <noscript>
+                  <img src="{{ media | img_url: '100x' }}" alt="" />
+                </noscript>
+              </a>
+              <a href="https://twitter.com/FloatieKings">
+                {% assign media = images['icon--tw.png'] %}
+                {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                <img class="mobile--social-media lazyload lazyload-fade"
+                    width="{{ media.width }}"
+                    height="{{ media.height }}"
+                    data-src="{{ img_url }}"
+                     data-sizes="auto"
+                     data-image-id="{{ media.id }}">
+                <noscript>
+                  <img src="{{ media | img_url: '100x' }}" alt="" />
+                </noscript>
+              </a>
+              <a href="https://www.linkedin.com/company/floatiekings/">
+                {% assign media = images['icon--li.png'] %}
+                {% assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                <img class="mobile--social-media lazyload lazyload-fade"
+                    width="{{ media.width }}"
+                    height="{{ media.height }}"
+                    data-src="{{ img_url }}"
+                     data-sizes="auto"
+                     data-image-id="{{ media.id }}">
+                <noscript>
+                  <img src="{{ media | img_url: '100x' }}" alt="" />
+                </noscript>
+              </a>
+          </div>
+      {% endcase %}
+  {% endfor %}   
+
+  <p>Shop Statik • Powered by Magnify.Ventures</p>
+    <img src="https://cdn.shopify.com/s/files/1/0603/0802/9633/files/STATIK_LOGO_VECTOR_WHITE_f49bc0f2-0dd3-4516-a393-0affec577794.png?v=1668630070">
+
+  
+  
+</div>
+
+<style>
+
+  .footer--mobile{
+    background-color: black;
+    color: white;
+    padding: 25px;
+  }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion, .accordion:visited, .accordion:focus{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border-style: solid;
+  border-color: #c3c3c3;
+  border-width: 0 0 2px 0;
+  outline: none;
+  transition: 0.4s;
+  margin: 0px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: black;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 8px 18px 0 0px;
+  background-color: black;
+  display: none;
+  overflow: hidden;
+}
+
+
+  
+</style>
+
+
+{% schema %}
+{
+  "name": "Simple Footer Mobile",
+  "presets": [{"name": "Simple Footer Mobile"}],
+  "max_blocks": 4,
+  "settings": [{
+      "type": "select",
+      "id": "footer_text_align",
+      "label": "Footer text align",
+      "options": [{
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "footer_title_transform",
+      "label": "Footer title case",
+      "options": [{
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "inherit",
+          "label": "Regular"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "footer_title_size",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Footer title size",
+      "default": 14
+    },
+    {
+      "type": "checkbox",
+      "id": "show_credit_cards",
+      "label": "Show payment icons",
+      "default": true,
+      "info": "The icons that show are determined by your store's payment settings."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social_icons",
+      "label": "Show social icons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_copyright",
+      "label": "Show site name and copyright",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Language Selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Show language selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Currency Selector",
+      "info": "To add a currency, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_currency_selector",
+      "label": "Show currency selector",
+      "default": true
+    }
+  ],
+  "blocks": [{
+      "type": "menu",
+      "name": "Menu",
+      "settings": [{
+          "type": "link_list",
+          "id": "footer_nav",
+          "label": "Choose a menu",
+          "info": "This menu won't show dropdown items"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Menu title",
+          "default": "Explore"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "name": "Blog",
+      "limit": 1,
+      "settings": [{
+          "id": "footer_blog",
+          "type": "blog",
+          "label": "Blog"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Blog title",
+          "default": "Recent posts"
+        },
+        {
+          "type": "range",
+          "id": "post_limit",
+          "min": 1,
+          "max": 12,
+          "step": 1,
+          "label": "Posts shown",
+          "default": 3
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [{
+          "type": "text",
+          "id": "heading",
+          "label": "Text title",
+          "default": "About"
+        },
+        {
+          "id": "footer_text",
+          "type": "richtext",
+          "label": "Text",
+          "default": "<p>Add some text to your footer.</p>"
+        }
+      ]
+    },
+{
+      "type": "image",
+      "name": "image",
+      "settings": [{
+          "type": "image_picker",
+          "id": "imagefooter",
+          "label": "Image"
+        },{
+          "id": "image_text",
+          "type": "richtext",
+          "label": "Text",
+          "default": "<p>Add some text to your footer.</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>

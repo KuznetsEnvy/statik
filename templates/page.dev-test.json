@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "8dfe9f52-8785-4043-973e-cba832189530": {
+      "type": "simple-footer-mobile",
+      "blocks": {
+        "eadcbfb3-582c-41a3-8f08-90959dc5ffe0": {
+          "type": "menu",
+          "settings": {
+            "footer_nav": "about-us",
+            "heading": "Explore"
+          }
+        }
+      },
+      "block_order": [
+        "eadcbfb3-582c-41a3-8f08-90959dc5ffe0"
+      ],
+      "settings": {
+        "footer_text_align": "left",
+        "footer_title_transform": "uppercase",
+        "footer_title_size": 14,
+        "show_credit_cards": true,
+        "show_social_icons": true,
+        "show_copyright": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8dfe9f52-8785-4043-973e-cba832189530"
+  ]
+}

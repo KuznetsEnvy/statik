@@ -1,0 +1,42 @@
+<div class="stress-free-shopping">
+
+  <img width="200px" src="{{ 'stars.png' | asset_img_url:'x1080' }}">
+  <p class="h2" style="margin: 18px !important;"><b>Stress Free Shopping</b></p>
+  <p>"Amazing customer service, I accidentally ordered 2 and they were super quick to fix my order. Fast shipping and super helpful customer service, love this store."</p>
+
+</div>
+
+<style>
+
+  @media screen and (max-width: 676px){
+    .stress-free-shopping{
+      padding: 60px 5% !important;
+    }
+  }
+
+  .stress-free-shopping{
+    background-image:-webkit-linear-gradient(left, #BE408E, #1F2350);
+    color: white;
+    text-align: center;
+    padding: 60px 30%;
+    margin-top: 15px;
+  }
+
+
+  
+</style>
+
+
+{% schema %}
+  {
+    "name": "Stress Free Shopping",
+    "settings": [],
+    "presets": [{"name": "Stress Free Shopping"}]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

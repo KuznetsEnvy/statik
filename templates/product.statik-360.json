@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "hyper-mount",
+            "product_2": "snap-n-charge-1"
+          }
+        },
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b",
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "86af0938-8fba-45ec-8604-7a8ba4e66dfa": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Statik-360_PUP-0132_PUP-0386_Silo_Ghosted-Tips_b81d4455-967a-4bc6-b8f1-c5669725c3db.jpg",
+        "subheading": "statik 360",
+        "title": "It safely charges your device while you are using it",
+        "content": "<p>Made with a convenient design that stays out of the way while you you work or play. Its strong magnetic connection stays tight.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "overlap_left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "66976169-1068-4f45-a4aa-442d301872f9": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "15px",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/snap_n_charge_ef88e110-5469-4da7-8f2d-ef7e3cc76bc8.png",
+        "mobile_image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-22_at_7.04.51_PM.png",
+        "subheading": "statik 360",
+        "title": "Works everywhere, charges everything",
+        "content": "<p>The last cable you’ll ever need.Comes with three connectors, USB-C, Lightning (Apple) and Micro-USB. Charges your Android, iPhone, Tablets, Windows, Linux, Apple, Samsung, Motorola, Lenovo, LG. Everything.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "799cd58d-5ad1-4997-a05f-70db97c3b7bd": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/3_copy.png",
+        "subheading": "statik 360",
+        "title": "Safe and quick charge",
+        "content": "<p>Whether you're charging up a phone, tablet or controller, you want to get back in action fast. Plus, it quickly refills its charge when you are done, so you're not stuck waiting by the outlet while everyone else is having fun without you.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "90ab1d94-7232-42d9-9fce-97ae9022eac8": {
+      "type": "gallery",
+      "blocks": {
+        "template--16023434854593__90ab1d94-7232-42d9-9fce-97ae9022eac8-16692125659bf44b75-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "caption": ""
+          }
+        },
+        "template--16023434854593__90ab1d94-7232-42d9-9fce-97ae9022eac8-16692125659bf44b75-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_copy.png",
+            "caption": ""
+          }
+        },
+        "b8849ce3-b819-423a-a7ac-77f150fae279": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_copy.png",
+            "caption": ""
+          }
+        },
+        "0b09ec5e-4334-4d80-b5ab-8a6329c621fe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_copy.png",
+            "caption": ""
+          }
+        },
+        "template--16023434854593__90ab1d94-7232-42d9-9fce-97ae9022eac8-16692125659bf44b75-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_360_01.png",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16023434854593__90ab1d94-7232-42d9-9fce-97ae9022eac8-16692125659bf44b75-1",
+        "template--16023434854593__90ab1d94-7232-42d9-9fce-97ae9022eac8-16692125659bf44b75-2",
+        "b8849ce3-b819-423a-a7ac-77f150fae279",
+        "0b09ec5e-4334-4d80-b5ab-8a6329c621fe",
+        "template--16023434854593__90ab1d94-7232-42d9-9fce-97ae9022eac8-16692125659bf44b75-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "86af0938-8fba-45ec-8604-7a8ba4e66dfa",
+    "66976169-1068-4f45-a4aa-442d301872f9",
+    "799cd58d-5ad1-4997-a05f-70db97c3b7bd",
+    "90ab1d94-7232-42d9-9fce-97ae9022eac8",
+    "judgeme_section_review_widget_2ec6"
+  ]
+}

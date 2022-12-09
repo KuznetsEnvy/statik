@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "976f30d6-d7c2-496a-9a93-daf47342c581": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16019067797697__976f30d6-d7c2-496a-9a93-daf47342c581-1668613598d75b8366-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-jeremy-bishop-2923595.jpg",
+            "tab_label": "Item",
+            "subheading": "statik",
+            "title": "ABOUT US",
+            "content": "<p>We are a technology solutions company focused on high performance and creativity.<\/p><p>Our products are made with ultra modern design and quality built to last! All our ideas are developed to make you have an easier and better life<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067797697__976f30d6-d7c2-496a-9a93-daf47342c581-1668613598d75b8366-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "976f30d6-d7c2-496a-9a93-daf47342c581"
+  ]
+}

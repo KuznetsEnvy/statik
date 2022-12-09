@@ -1,0 +1,42 @@
+<video onClick="location.href='{{ section.settings.link }}'" loop="" muted="" autoplay="autoplay" preload="" id="vid" class="hide-mobile simple-video">
+    <source src="{{ section.settings.linktovideo }}" type="video/mp4">
+</video>
+
+<video onClick="location.href='{{ section.settings.link }}'" loop="" muted="" autoplay="autoplay" preload="" id="vid" class="hide-desktop simple-video">
+    <source src="{{ section.settings.linktovideomobile }}" type="video/mp4">
+</video>
+
+<style>
+
+  .simple-video:hover, .simple-video:focus{
+    cursor: pointer;
+  }
+
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Simple Video",
+    "settings": [{
+      "type": "url",
+      "id": "linktovideo",
+      "label": "Link to Video Desktop"
+      },{
+      "type": "url",
+      "id": "linktovideomobile",
+      "label": "Link to Video Mobile"
+      },{
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+      }],
+	"presets":[{"name": "Simple Video"}]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

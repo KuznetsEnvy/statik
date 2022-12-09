@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "889f4cce-9c1d-4683-aeff-d7998479285d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"color:red;\">Pre-order now: ships December 16th<\/p>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "889f4cce-9c1d-4683-aeff-d7998479285d",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "pro-magnetic-tips",
+            "product_2": "snap-n-charge-1"
+          }
+        },
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p><\/p>",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "<p><\/p>",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "8f80be9e-b1b7-43f6-a186-b31d8ad3bd0b",
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "2558813c-4df7-48bd-ba73-f4eb09a132bf": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-02_af2899dc-264a-4567-b789-86ee7aa78373.png",
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-02.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.png",
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-03.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "724ffabd-159a-4867-bbbe-3c16af44df14": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_f84f6e1d-e3a2-4c00-88b5-bfc59ee66a58.png",
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-04.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "2af4410c-f9d3-47dd-b9ca-9baea6c4bb7c": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4.png",
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-05.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "fb2303ab-3448-4f66-9fbf-72adbfafd883": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5.png",
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-06.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "6dbbe8f6-4bda-42bc-9162-3bb38fb39d4a": {
+      "type": "simple-hero",
+      "settings": {
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-07.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "d956d928-7910-4903-90e6-1440087f513d": {
+      "type": "simple-hero",
+      "settings": {
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-08.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "5ab9dffd-b534-4dba-91e4-25dbe69cef96": {
+      "type": "simple-hero",
+      "settings": {
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-09.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "5682ee17-7632-4743-a0f9-f6044835cab4": {
+      "type": "simple-hero",
+      "settings": {
+        "imagemobile": "shopify:\/\/shop_images\/360Pro_BlitzCharge_Product_Page-10.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "2558813c-4df7-48bd-ba73-f4eb09a132bf",
+    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec",
+    "724ffabd-159a-4867-bbbe-3c16af44df14",
+    "2af4410c-f9d3-47dd-b9ca-9baea6c4bb7c",
+    "fb2303ab-3448-4f66-9fbf-72adbfafd883",
+    "6dbbe8f6-4bda-42bc-9162-3bb38fb39d4a",
+    "d956d928-7910-4903-90e6-1440087f513d",
+    "5ab9dffd-b534-4dba-91e4-25dbe69cef96",
+    "5682ee17-7632-4743-a0f9-f6044835cab4",
+    "judgeme_section_review_widget_2ec6"
+  ]
+}

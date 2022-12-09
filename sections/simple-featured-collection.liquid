@@ -1,0 +1,114 @@
+<div class="simple-featured-collection-desktop hide-mobile">
+  {% if section.settings.image %}<img src="{{ section.settings.image | img_url:'x1080' }}" onClick="location.href='{{ section.settings.link }}'">{% endif %}
+</div>
+
+<div class="simple-featured-collection-mobile hide-desktop">
+
+  {% if section.settings.imagemobile %}
+  <img src="{{section.settings.imagemobile | img_url:'x1080'}}">
+  <p>{{ section.settings.heading }}</p>
+  <div onClick="location.href='{{ section.settings.link }}'" class="simple-featured-collection-mobile-button">{{ section.settings.buttontext }}</div>
+  {% endif %}}
+</div>
+
+<div style="height:{{ section.settings.bottompadding }}"></div>
+
+<style>
+
+  .simple-featured-collection-desktop{
+    width: 100%;
+  }
+
+  .simple-featured-collection-desktop:hover, .simple-featured-collection-desktop:focus{
+    cursor: pointer;
+  }
+
+  .simple-featured-collection-desktop img{
+    width: 100%;
+    height: auto;
+  }
+
+  .simple-featured-collection-mobile-button{
+    color: white;
+    background-color:rgba(255,255,255,0.3);
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 75%;
+    border-radius: 80px;
+  }
+  
+
+  .simple-featured-collection-mobile{
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .simple-featured-collection-mobile img{
+    width: 100%;
+    height: auto;
+  }
+
+  .simple-featured-collection-mobile p{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 !important;
+  }
+
+  .simple-featured-collection-mobile div{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Simple Featured Coll",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+      },{
+      "type": "image_picker",
+      "id": "imagemobile",
+      "label": "Image Mobile"
+      },{
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+      },{
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+      },{
+      "type": "text",
+      "id": "buttontext",
+      "label": "Button Text"
+      },{
+      "type": "text",
+      "id": "bottompadding",
+      "label": "Bottom Padding"
+      }],
+	"presets":[{"name": "Simple Featured Coll"}]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

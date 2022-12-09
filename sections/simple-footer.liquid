@@ -1,0 +1,137 @@
+<div class="simple-footer">
+
+  <p><b>SIGN UP FOR INSTANT SAVINGS</b></p>
+
+{% form 'contact' %}
+
+  <div style="display:flex; justify-content: center;">
+  <div class="email simple-footer-email">
+    <label for="email"></label>
+    <input id="email" type="email" name="customer[email]" class="simple-footer-email-input" placeholder="Enter your email address"/>
+  </div>
+
+  <div class="submit simple-footer-submit">
+    <input type="submit" value="GO!" />
+  </div>
+  </div>
+  
+{% endform %}
+  
+  <p><a href="/pages/contact-us">NEED HELP?</a></p>
+  <p><a href="/collections/all">SHOP</a></p>
+  <p><a href="https://wholesalekeysmart.com/">WHOLESALE</a></p>
+  <p><a href="/pages/custom-keysmart">CUSTOM KEYSMART</a></p>
+  <p><a href="/pages/our-story">OUR STORY</a></p>
+
+  <div class="simple-footer-social">
+
+    {% comment %}<img src="https://cdn.shopify.com/s/files/1/0252/5199/files/facebook-icon.png?v=1664828327" onClick="location.href='https://www.facebook.com/KeySmart/'">{% endcomment %}
+    <img src="https://cdn.shopify.com/s/files/1/0252/5199/files/youtube-icon.png?v=1664828303" onClick="location.href='https://www.youtube.com/channel/UCc1iA79642TeYEdEu2UvVpA/videos'">
+    {% comment %}<img src="https://cdn.shopify.com/s/files/1/0252/5199/files/twitter-icon.png?v=1664828303" onClick="location.href='{{ section.settings.link }}'">{% endcomment %}
+    <img src="https://cdn.shopify.com/s/files/1/0252/5199/files/tiktok-icon.png?v=1664828303" onClick="location.href='https://www.tiktok.com/@statikco'">
+    <img src="https://cdn.shopify.com/s/files/1/0252/5199/files/instagram-icon.png?v=1664828303" onClick="location.href='https://www.instagram.com/statikco/'">
+    
+  </div>
+
+  <img class="simple-footer-logo" src="https://cdn.shopify.com/s/files/1/0603/0802/9633/files/STATIK_LOGO_VECTOR.png?v=1668615229">
+
+</div>
+
+<style>
+
+      .simple-footer{
+      text-align: center;
+    }
+
+    .simple-footer-social{
+      margin-right: auto;
+      margin-left: auto;
+      justify-content: center;
+    }
+
+  .simple-footer-social img:hover, .simple-footer-social img:focus{
+    cursor:pointer;
+    opacity: 0.5;
+    transition: all .3s ease;
+  }
+
+  .simple-footer-social img{
+    transition: all .3s ease;
+    opacity: 1;
+  }
+
+  .simple-footer-email-input{
+    border-style: none !important;
+        width: 100%;
+  }
+
+  @media screen and (min-width: 676px){
+    .simple-footer-email{
+      width: 40% !important;
+    }
+  }
+
+  .simple-footer-email{
+    width: 100%;
+    border-style: solid !important;
+    border-width: 0 0 2px 0;
+    border-color: black;
+  }
+
+  .simple-footer-logo{
+    height: 40px;
+    width: auto;
+    margin-top: 60px;
+  }
+
+  .simple-footer-submit{
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+  .simple-footer-social{
+    display: flex;
+  }
+
+  .simple-footer-social img{
+    width: auto;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .simple-footer p{
+    font-weight: 600;
+    color: black;
+    text-decoration: none !important;
+  }
+
+  .simple-footer a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none !important;
+  }
+
+  .simple-footer{ padding: 20px; }
+
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Simple Footer",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

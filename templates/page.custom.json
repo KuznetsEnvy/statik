@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "5e0fb701-dc66-4b7e-8d7d-fccd782a3d21": {
+      "type": "custom-keysmart",
+      "settings": {
+      }
+    },
+    "5ffcb476-7161-4302-895c-3f80614ad79f": {
+      "type": "custom-newsletter",
+      "settings": {
+      }
+    },
+    "c7f90199-7bb7-47de-a586-037c0747be94": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Stress_Free_Shopping.png",
+        "imagemobile": "shopify:\/\/shop_images\/stress-free_facbb288-b221-418a-a3c4-645f60a1e825.png",
+        "link": "",
+        "bottompadding": "",
+        "buttontext": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5e0fb701-dc66-4b7e-8d7d-fccd782a3d21",
+    "5ffcb476-7161-4302-895c-3f80614ad79f",
+    "c7f90199-7bb7-47de-a586-037c0747be94"
+  ]
+}

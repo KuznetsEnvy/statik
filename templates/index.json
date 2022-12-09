@@ -1,0 +1,535 @@
+{
+  "sections": {
+    "c143abe6-a403-43d8-b2d2-8eab7dd02c9e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16019067633857__c143abe6-a403-43d8-b2d2-8eab7dd02c9e-1670507647e4497b09-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STK_chrtistmas_DESK.png",
+            "mobile_image": "shopify:\/\/shop_images\/STK_chrtistmas_MOBILE_3.png",
+            "text_position": "middle_center",
+            "text_position_mobile": "top_center",
+            "subheading": "shop bundles at a special price",
+            "title": "Charge up your Christmas!",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/christmas-bundles-2022",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#ff2525",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__c143abe6-a403-43d8-b2d2-8eab7dd02c9e-1670507647e4497b09-0"
+      ],
+      "settings": {
+        "mobile_text_color": "#ffffff",
+        "bottompadding": "",
+        "hidemobile": false,
+        "hidedesktop": false,
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "9c9dcf9d-1c73-4825-bcd0-a1c37e5499a6": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16019067633857__9c9dcf9d-1c73-4825-bcd0-a1c37e5499a6-16705076581d0c067a-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "christmas-bundles-2022",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__9c9dcf9d-1c73-4825-bcd0-a1c37e5499a6-16705076581d0c067a-0"
+      ],
+      "settings": {
+        "subheading": "statik christmas",
+        "title": "Holiday Bundles",
+        "content": "<p><\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "2457107a-1027-4763-88d1-023f330e870b": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/360_10cd5d1e-096f-420d-882a-eb1a67bb6284.png",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "Better. stronger. faster.",
+            "title": "Statik 360 pro",
+            "button_1_text": "PRO ORDER NOW",
+            "button_1_link": "shopify:\/\/products\/statik-360-pro",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b890c296-07eb-4c25-b64e-feab3ffc3b64": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/360.png",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "Charges your devices without wires getting in the way",
+            "title": "Statik 360",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/statik-360",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 28
+          }
+        },
+        "40844899-fc39-479b-9f47-40317560c49d": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/SNAP-N-CHARGE.png",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "compact and light: it goes everywhere",
+            "title": "Snap-N-Charge",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/snap-n-charge-1",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "c4da9aca-20c9-4d20-88bd-bfa976a59fe6": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/WIRELESS.png",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "get the most efficient wireless charger available",
+            "title": "Wireless Charger",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/statik-wireless-charger",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "2457107a-1027-4763-88d1-023f330e870b",
+        "b890c296-07eb-4c25-b64e-feab3ffc3b64",
+        "40844899-fc39-479b-9f47-40317560c49d",
+        "c4da9aca-20c9-4d20-88bd-bfa976a59fe6"
+      ],
+      "settings": {
+        "mobile_text_color": "",
+        "bottompadding": "",
+        "hidemobile": false,
+        "hidedesktop": true,
+        "section_height": "large",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 10,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "8f06bd98-8f69-45cc-a24d-4715f7109015": {
+      "type": "slideshow",
+      "blocks": {
+        "270c38a0-600c-4239-99e2-e0e78376dfc7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_360_3eebf6ea-e071-4518-a96f-0a29f19b87c4.png",
+            "text_position": "middle_right",
+            "text_position_mobile": "middle_center",
+            "subheading": "better, stronger and faster than ever.",
+            "title": "Statik 360 Pro",
+            "button_1_text": "pre order now",
+            "button_1_link": "shopify:\/\/products\/statik-360-pro",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_360.png",
+            "text_position": "middle_right",
+            "text_position_mobile": "middle_center",
+            "subheading": "Charges your devices without wires getting in the way",
+            "title": "Statik 360",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/statik-360",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1b5b2f90-ad90-4abe-b914-515d764526d9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SNAP-N-CHARGE_fd26c8d5-af94-4802-a563-2eaf08bc8e5a.png",
+            "text_position": "middle_center",
+            "text_position_mobile": "middle_center",
+            "subheading": "compact and light: it goes everywhere",
+            "title": "Snap-N-Charge",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/snap-n-charge-1",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "6dc8c5da-a499-4a32-b71b-3f3c45b709fa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wireless_charge_11098e4c-b86f-4988-bb58-75e9d130dc57.png",
+            "text_position": "middle_left",
+            "text_position_mobile": "middle_center",
+            "subheading": "get the most efficient wireless charger available",
+            "title": "Wireless Charger",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/statik-wireless-charger",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "270c38a0-600c-4239-99e2-e0e78376dfc7",
+        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0",
+        "1b5b2f90-ad90-4abe-b914-515d764526d9",
+        "6dc8c5da-a499-4a32-b71b-3f3c45b709fa"
+      ],
+      "settings": {
+        "mobile_text_color": "#000000",
+        "bottompadding": "",
+        "hidemobile": true,
+        "hidedesktop": false,
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "8b7aa08c-edf6-46fe-a065-f8550a82a1d6": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16019067633857__8b7aa08c-edf6-46fe-a065-f8550a82a1d6-1669063368353a86ce-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "home-page-slider",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__8b7aa08c-edf6-46fe-a065-f8550a82a1d6-1669063368353a86ce-0"
+      ],
+      "settings": {
+        "subheading": "statik collection",
+        "title": "Best Sellers",
+        "content": "<p><\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1664829384eac5152e": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Prancheta_6.png",
+        "imagemobile": "shopify:\/\/shop_images\/Prancheta-1_04_copy_cf50f96d-b6d5-40d0-b257-2ebc7b28b444.png",
+        "link": "shopify:\/\/collections\/all",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "8ef80941-21c4-4dac-ad80-75e1c2b99e9e": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16019067633857__8ef80941-21c4-4dac-ad80-75e1c2b99e9e-1668780939410b3cc5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-in",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__8ef80941-21c4-4dac-ad80-75e1c2b99e9e-1668780939410b3cc5-0"
+      ],
+      "settings": {
+        "subheading": "Statik collection",
+        "title": "New Arrivals",
+        "content": "<p><\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "fcea1584-b7fd-4689-b1f9-63204290a7fa": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16019067633857__fcea1584-b7fd-4689-b1f9-63204290a7fa-1668781354d31fb467-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/globright_update_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/GLOBRIGHT_bc82db5b-e8de-467e-943c-d4fccd66e1b2.jpg",
+            "text_position": "middle_right",
+            "text_position_mobile": "bottom_center",
+            "subheading": "Light Up, Charge Up, Have Fun",
+            "title": "GloBright Cable",
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify:\/\/products\/light-cable",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__fcea1584-b7fd-4689-b1f9-63204290a7fa-1668781354d31fb467-0"
+      ],
+      "settings": {
+        "mobile_text_color": "#ffffff",
+        "bottompadding": "15px",
+        "hidemobile": false,
+        "hidedesktop": false,
+        "section_height": "medium",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "4a0db659-8dd2-4635-aa31-82976fc4765d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16019067633857__4a0db659-8dd2-4635-aa31-82976fc4765d-1668781354d31fb467-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snapncharge.png",
+            "mobile_image": "shopify:\/\/shop_images\/STATIK_SnapNCharge_Product_Charge_iPhone_67593dce-66c9-4ac0-8649-08ef4399aba3.jpg",
+            "text_position": "middle_left",
+            "text_position_mobile": "bottom_center",
+            "subheading": "Never run out of battery again",
+            "title": "Snap-N-Charge",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/snap-n-charge-1",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__4a0db659-8dd2-4635-aa31-82976fc4765d-1668781354d31fb467-0"
+      ],
+      "settings": {
+        "mobile_text_color": "#ffffff",
+        "bottompadding": "15px",
+        "hidemobile": false,
+        "hidedesktop": false,
+        "section_height": "medium",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "3f2f3503-7c4b-4c3b-bcc7-73600aad2a39": {
+      "type": "simple-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Prancheta_2_646c5ba6-d54d-428f-9421-7ec47d9b7293.png",
+        "imagemobile": "shopify:\/\/shop_images\/Prancheta-1_06_faa7067d-3b33-4873-8bdf-022ca6fee303.png",
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    },
+    "72664542-9456-40d0-93c7-ae4f82b57f35": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16019067633857__72664542-9456-40d0-93c7-ae4f82b57f35-1668781025b34776d1-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__72664542-9456-40d0-93c7-ae4f82b57f35-1668781025b34776d1-0"
+      ],
+      "settings": {
+        "subheading": "statik last change",
+        "title": "Shop Sale",
+        "content": "<p><\/p>",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "50255ecb-6f53-4364-bdd5-3e55f82302c7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16019067633857__50255ecb-6f53-4364-bdd5-3e55f82302c7-1668781354d31fb467-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_360_01_copy_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/STATIK_360_01_copy_11a508bb-f62b-45d0-a08c-5d73837b7313.png",
+            "text_position": "middle_right",
+            "text_position_mobile": "bottom_center",
+            "subheading": "switches between iphone, android and micro-us with 3 magnetic USB attachments",
+            "title": "Statik 360: 3-in-1 charger",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/products\/statik-360",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16019067633857__50255ecb-6f53-4364-bdd5-3e55f82302c7-1668781354d31fb467-0"
+      ],
+      "settings": {
+        "mobile_text_color": "#000000",
+        "bottompadding": "",
+        "hidemobile": false,
+        "hidedesktop": false,
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "f61a5acc-86a4-4b40-8385-d952e06cb859": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/about_us_banner.png",
+        "mobile_image": "shopify:\/\/shop_images\/pexels-alexander-gorodilov-8643541.jpg",
+        "subheading": "about us",
+        "title": "We Love Adventure",
+        "content": "<p>Wheter you are climbing a mountain or going out for an all-nighter, you need to stay connected. That's why we make tools that charge up your devices fast and keep them safe. Get the most out of you devices — with Statik.<\/p>",
+        "button_text": "SHOP best sellers",
+        "button_link": "shopify:\/\/collections\/all",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#72058e",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "c143abe6-a403-43d8-b2d2-8eab7dd02c9e",
+    "9c9dcf9d-1c73-4825-bcd0-a1c37e5499a6",
+    "slideshow",
+    "8f06bd98-8f69-45cc-a24d-4715f7109015",
+    "8b7aa08c-edf6-46fe-a065-f8550a82a1d6",
+    "1664829384eac5152e",
+    "8ef80941-21c4-4dac-ad80-75e1c2b99e9e",
+    "fcea1584-b7fd-4689-b1f9-63204290a7fa",
+    "4a0db659-8dd2-4635-aa31-82976fc4765d",
+    "3f2f3503-7c4b-4c3b-bcc7-73600aad2a39",
+    "72664542-9456-40d0-93c7-ae4f82b57f35",
+    "50255ecb-6f53-4364-bdd5-3e55f82302c7",
+    "f61a5acc-86a4-4b40-8385-d952e06cb859"
+  ]
+}
