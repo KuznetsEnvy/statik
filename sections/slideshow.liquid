@@ -127,7 +127,7 @@
             {%- capture section_content -%}
 
             {%- if block.settings.title != blank -%}
-              <h3 class="heading heading--large heading--large-{{ section.id }}" style="margin-bottom:10px !important;">
+              <h3 class="heading heading--large heading--large-{{ section.id }} heading-text--{{ block.settings.title | handleize }}" style="margin-bottom:10px !important;">
                 <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
               </h3>
             {%- endif -%}
@@ -191,7 +191,7 @@
         {%- capture slide_attributes -%}
           {{ block.shopify_attributes }}
           id="block-{{ section.id }}-{{ block.id }}"
-          class="slideshow__slide {% if split_image != blank %}slideshow__slide--split{% endif %} {% if section.settings.transition_type == 'sweep' %}slideshow__slide--sweep{% endif %}"
+          class="slideshow__slide slideshow__slide--{{ block.settings.title | handleize }} {% if split_image != blank %}slideshow__slide--split{% endif %} {% if section.settings.transition_type == 'sweep' %}slideshow__slide--sweep{% endif %}"
           {% unless forloop.first %}hidden{% endunless %}
           {% if section.settings.section_height == 'auto' %}
             style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"

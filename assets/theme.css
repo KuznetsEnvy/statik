@@ -15049,3 +15049,17 @@ shopify-payment-terms {
     scroll-snap-align: center;
   }
 }
+
+.hide-desktop .heading-text--globo-charge {
+  max-width: 5.6em;
+  margin-left: auto;
+  text-align: left;
+}
+.slideshow__slide--globo-charge .button.button--primary {
+  background: linear-gradient( 161deg, rgb(149,64,141) 0%, rgb(66,57,136) 100%) center;
+  color: white;
+}
+.slideshow__slide--globo-charge .button.button--primary:hover,
+.slideshow__slide--globo-charge .button.button--primary:focus {
+  background: linear-gradient( 161deg, rgb(66,57,136) 0%, rgb(149,64,141) 100%) center;
+}
