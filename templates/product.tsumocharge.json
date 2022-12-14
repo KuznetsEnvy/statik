@@ -1,0 +1,197 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.tags contains 'presale' %}\n<p style=\"color:red;\">Pre-order now: ships December 20th<\/p>\n{% else %}<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "a39f9b18-9c60-4893-b3cc-aae9d5b08d4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-11.png",
+            "image_alignment": "center",
+            "image_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439",
+        "buy_buttons",
+        "a39f9b18-9c60-4893-b3cc-aae9d5b08d4d"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        }
+      },
+      "block_order": [
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+      ],
+      "settings": {
+      }
+    },
+    "9b59f0c2-6804-427d-ac02-c6d4b3497bd1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Indestructible Silicone Charge Cable",
+        "content": "<p>Stop wasting money on cheap cables that break and wear out. The ultra-fast BlitzCharge technology is protected by 6mm thick silicone, so you get more power that lasts longer.<\/p><p>Plus, the metal housing for the connectors prevents damage from bending or drops. take it on your craziest adventures – it's built for fun.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "82dc4537-3bc6-4a08-ae5a-04339c80cd0f": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-13.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "619e6c1a-9833-4197-8b2d-51a712378ed8": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-14.png",
+        "subheading": "",
+        "title": "BlitzCharge™ Ultra-Fast Safe Charging Tech",
+        "content": "<p>TsumoCharge delivers up to 4x more power* than other chargers, so you can get back to the fun faster. Perfect for phones, laptops, tablets, drones, and more.<\/p><p>* Compared to typical 25W cables, TsumoCharge delivers 100W.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec": {
+      "type": "simple-hero",
+      "settings": {
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "9b59f0c2-6804-427d-ac02-c6d4b3497bd1",
+    "82dc4537-3bc6-4a08-ae5a-04339c80cd0f",
+    "619e6c1a-9833-4197-8b2d-51a712378ed8",
+    "judgeme_section_review_widget_2ec6",
+    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec"
+  ]
+}

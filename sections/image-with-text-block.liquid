@@ -93,6 +93,7 @@
         {%- assign text_position = section.settings.text_position | split: '_' | last -%}
         {%- assign text_position_mobile = section.settings.text_position_mobile | split: '_' | last -%}
 
+
         <div {% if section.settings.reveal_on_scroll %}reveal{% endif %} class="image-with-text-block__content content-box content-box--small content-box--text-{{ section.settings.text_alignment}} content-box--{{ text_position }} text-container">
           {%- if section.settings.subheading != blank -%}
             <h2 class="heading heading--small">
@@ -120,12 +121,14 @@
         </div>
       {%- endcapture -%}
 
+      {% if section.settings.subheading != blank or section.settings.title != blank or section.settings.content != blank or section.settings.button_text != blank %}
       {% if is_boxed %}
         {{- section_content -}}
       {% else %}
         <div class="container container--flush">
           {{- section_content -}}
         </div>
+      {% endif %}
       {% endif %}
     </image-with-text-block>
   </div>

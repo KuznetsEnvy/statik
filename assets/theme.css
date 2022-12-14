@@ -22,7 +22,8 @@
   text-decoration-color: #a01deb !important;
 }
 
-.h3-image-block{
+.h3-image-block,
+.shopify-section--product-content + .shopify-section--rich-text h3.heading.h2 {
   background: -webkit-linear-gradient(left, #BE408E, #1F2350);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

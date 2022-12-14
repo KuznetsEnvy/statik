@@ -49,7 +49,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/GloboChargeProductPage_221115-02.png",
-            "image_alignment": "left",
+            "image_alignment": "center",
             "image_width": 500
           }
         }
