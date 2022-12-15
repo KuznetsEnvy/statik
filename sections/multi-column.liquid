@@ -1,4 +1,4 @@
-{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
+{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' or section.settings.background_gradient -%}
   {%- assign blends_with_background = false -%}
 {%- else -%}
   {%- assign blends_with_background = true -%}
@@ -11,6 +11,7 @@
     {%- else -%}
       {%- assign section_background = section.settings.background -%}
     {%- endif -%}
+
 
     {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
       {%- assign heading_color = settings.heading_color -%}
@@ -27,6 +28,11 @@
 
     --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
   }
+  {%- if section.settings.background_gradient != blank -%}
+  #shopify-section-{{ section.id }} .section__color-wrapper {
+      background: {{ section.settings.background_gradient }}
+  }
+  {%- endif -%}
 
   {%- if section.settings.title == blank and section.settings.subheading == blank and section.settings.content == blank -%}
     #shopify-section-{{ section.id }} {
@@ -443,6 +449,11 @@
       "id": "background",
       "label": "Background",
       "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
     },
     {
       "type": "color",
