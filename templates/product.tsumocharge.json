@@ -88,12 +88,21 @@
             "content": "",
             "page": "warranty"
           }
+        },
+        "282ac2ff-4d0c-4dc8-bdac-39f8aa717dba": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Featured products",
+            "product_1": "{{ product.metafields.custom.product_recommendation_1.value }}",
+            "product_2": "{{ product.metafields.custom.product_recommendation_2.value }}"
+          }
         }
       },
       "block_order": [
         "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
         "b3f4047d-3f5e-411c-9090-2f98525621c1",
-        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0"
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0",
+        "282ac2ff-4d0c-4dc8-bdac-39f8aa717dba"
       ],
       "settings": {
       }
@@ -121,7 +130,8 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-13.png",
+        "image": "shopify:\/\/shop_images\/TsumoCharge-_Cable-Comparison-Desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-13.png",
         "subheading": "",
         "title": "",
         "content": "",
@@ -142,17 +152,162 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-14.png",
+        "image": "shopify:\/\/shop_images\/TsumoCharge-Head-Comparison-Desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-14.png",
         "subheading": "",
         "title": "BlitzCharge™ Ultra-Fast Safe Charging Tech",
         "content": "<p>TsumoCharge delivers up to 4x more power* than other chargers, so you can get back to the fun faster. Perfect for phones, laptops, tablets, drones, and more.<\/p><p>* Compared to typical 25W cables, TsumoCharge delivers 100W.<\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_position": "left",
+        "text_position": "right",
         "text_position_mobile": "left",
         "text_alignment": "center",
         "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "77dff159-cfc1-4b30-8acb-afe02e8fdbe1": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/TsumoCharge-Strength-Desktop_57900790-5ce3-4321-b4e3-bc586bbd97e4.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/TsumoCharge_ProductImage_02.webp",
+        "subheading": "",
+        "title": "Strong. Organized. Powerful.",
+        "content": "<p>Roll it up and go. The leather cable wrap keeps your TsumoCharge neat and safe so you can get back to your next adventure faster.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "36823596-43f9-48f6-8ba6-3f4e1d4607e8": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16052685242561__36823596-43f9-48f6-8ba6-3f4e1d4607e8-16710254520333670a-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fast-Charge.png",
+            "image_width": 80,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Ultra-Fast 100W Power",
+            "content": "<p><strong>Save hours of valuable time<\/strong> instead of being stuck next to the power outlet.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--16052685242561__36823596-43f9-48f6-8ba6-3f4e1d4607e8-16710254520333670a-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20k-Bends.png",
+            "image_width": 80,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Strong & Durable",
+            "content": "<p>Ultra-durability meets fast charging. <strong>Rated for 20,000+ bends<\/strong> so you don't have to constantly replace your cables.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--16052685242561__36823596-43f9-48f6-8ba6-3f4e1d4607e8-16710254520333670a-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Warranty.png",
+            "image_width": 80,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "1 Year Statik Warranty",
+            "content": "<p>We keep our <strong>quality standards<\/strong> high and select materials for <strong>durability and reliability<\/strong>.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--16052685242561__36823596-43f9-48f6-8ba6-3f4e1d4607e8-16710254520333670a-0",
+        "template--16052685242561__36823596-43f9-48f6-8ba6-3f4e1d4607e8-16710254520333670a-1",
+        "template--16052685242561__36823596-43f9-48f6-8ba6-3f4e1d4607e8-16710254520333670a-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "f518ac7d-1071-42fa-8251-6c1f98ef58cf": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/TsumoCharge_PUP-0126_Lifestyle_19_Small_6ae14448-fcde-410e-9027-7f550b408c0a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/TsumoCharge_ProductPage-21.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "#f3f3f3",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c9a786cc-fd43-4697-a848-34a05d3af3cc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16052685242561__c9a786cc-fd43-4697-a848-34a05d3af3cc-1671025452f74c5f47-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TsumoCharge-EnablingBlitzCharge.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "How to Enable BlitzCharge",
+            "content": "<p><strong>To enable BlitzCharge, use a high-powered USB-C adapter.<\/strong><\/p><p><\/p><p>*Maximum output with 100W adapter.<br\/><br\/>Please note: To enable superfast charging (25W & 45W) on Samsung, Android, or Google phones you must use the manufacturer's superfast power adapter. Third party adapters may be restricted to a maximum of 15W.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16052685242561__c9a786cc-fd43-4697-a848-34a05d3af3cc-1671025452f74c5f47-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -191,6 +346,10 @@
     "9b59f0c2-6804-427d-ac02-c6d4b3497bd1",
     "82dc4537-3bc6-4a08-ae5a-04339c80cd0f",
     "619e6c1a-9833-4197-8b2d-51a712378ed8",
+    "77dff159-cfc1-4b30-8acb-afe02e8fdbe1",
+    "36823596-43f9-48f6-8ba6-3f4e1d4607e8",
+    "f518ac7d-1071-42fa-8251-6c1f98ef58cf",
+    "c9a786cc-fd43-4697-a848-34a05d3af3cc",
     "judgeme_section_review_widget_2ec6",
     "24623d44-bdc1-4fc5-b8a4-110b0648a5ec"
   ]
