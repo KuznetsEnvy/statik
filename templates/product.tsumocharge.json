@@ -92,7 +92,7 @@
         "282ac2ff-4d0c-4dc8-bdac-39f8aa717dba": {
           "type": "featured_products",
           "settings": {
-            "title": "Featured products",
+            "title": "Useful Accessories",
             "product_1": "{{ product.metafields.custom.product_recommendation_1.value }}",
             "product_2": "{{ product.metafields.custom.product_recommendation_2.value }}"
           }
@@ -256,6 +256,7 @@
         "desktop_item_size": "medium",
         "spacing": "tight",
         "background": "#000000",
+        "background_gradient": "linear-gradient(136deg, rgba(190, 64, 142, 1) 11%, rgba(31, 35, 80, 1) 84%)",
         "text_color": "#ffffff"
       }
     },

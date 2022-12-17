@@ -314,8 +314,8 @@
           "settings": {
             "collection": "new-in",
             "label": "",
-            "button_text": "",
-            "button_url": ""
+            "button_text": "See all new arrivals",
+            "button_url": "shopify:\/\/collections\/new-in"
           }
         }
       },
@@ -325,7 +325,7 @@
       "settings": {
         "subheading": "Statik collection",
         "title": "New Arrivals",
-        "content": "<p><\/p>",
+        "content": "",
         "products_count": 4,
         "products_per_row": 4,
         "stack_products": true,
