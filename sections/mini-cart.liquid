@@ -5,13 +5,13 @@
     <p class="drawer__title heading h6">
       {%- case settings.cart_icon -%}
         {%- when 'shopping_bag' -%}
-          {%- render 'icon' with 'header-cart' -%}
+          {%- render 'icon', icon: 'header-cart' -%}
 
         {%- when 'shopping_cart' -%}
-          {%- render 'icon' with 'header-shopping-cart' -%}
+          {%- render 'icon', icon: 'header-shopping-cart' -%}
 
         {%- when 'tote_bag' -%}
-          {%- render 'icon' with 'header-tote-bag' -%}
+          {%- render 'icon', icon: 'header-tote-bag' -%}
       {%- endcase -%}
 
       {%- if cart.item_count == 0 -%}
@@ -22,7 +22,7 @@
     </p>
 
     <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
-      {%- render 'icon' with 'close' -%}
+      {%- render 'icon', icon: 'close' -%}
     </button>
   </header>
 
@@ -80,11 +80,11 @@
             <div class="line-item__content-wrapper">
               <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
                 <span class="line-item__loader" hidden>
-                  <span class="line-item__loader-spinner spinner" hidden>{% render 'icon' with 'spinner', width: 16, height: 16, stroke_width: 6 %}</span>
-                  <span class="line-item__loader-mark" hidden>{% render 'icon' with 'check', width: 20, height: 20 %}</span>
+                  <span class="line-item__loader-spinner spinner" hidden>{% render 'icon', icon: 'spinner', width: 16, height: 16, stroke_width: 6 %}</span>
+                  <span class="line-item__loader-mark" hidden>{% render 'icon', icon: 'check', width: 20, height: 20 %}</span>
                 </span>
 
-                <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
+                <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %} alt="">
               </a>
 
               {%- capture unit_price -%}
@@ -196,7 +196,7 @@
                   <ul class="line-item__discount-list list--unstyled" role="list">
                     {%- for discount_allocation in line_item.line_level_discount_allocations -%}
                       <li class="line-item__discount-badge discount-badge">
-                        {%- render 'icon' with 'discount-badge' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
+                        {%- render 'icon', icon: 'discount-badge' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
                       </li>
                     {%- endfor -%}
                   </ul>
@@ -213,18 +213,18 @@
                 <line-item-quantity class="line-item__quantity">
                   <div class="quantity-selector quantity-selector--small">
                     <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | minus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.decrease_quantity' | t | escape }}" data-no-instant>
-                      {%- render 'icon' with 'minus' -%}
+                      {%- render 'icon', icon: 'minus' -%}
                     </a>
 
                     <input is="input-number" class="quantity-selector__input text--xsmall" autocomplete="off" type="text" inputmode="numeric" name="updates[]" data-line="{{ forloop.index }}" value="{{ line_item.quantity }}" {% if max_allowed_quantity != '' %}max="{{ max_allowed_quantity }}"{% endif %} size="{{ line_item.quantity | append: '' | size | at_least: 2 }}" aria-label="{{ 'cart.general.change_quantity' | t | escape }}">
 
                     {%- if allow_more -%}
                       <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | plus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.increase_quantity' | t | escape }}" data-no-instant>
-                        {%- render 'icon' with 'plus' -%}
+                        {%- render 'icon', icon: 'plus' -%}
                       </a>
                     {%- else -%}
                       <span class="quantity-selector__button" aria-label="{{ 'cart.general.no_more_stock' | t | escape }}" data-tooltip="{{ 'cart.general.no_more_stock' | t | escape }}">
-                        {%- render 'icon' with 'plus' -%}
+                        {%- render 'icon', icon: 'plus' -%}
                       </span>
                     {%- endif -%}
                   </div>
@@ -296,7 +296,7 @@
           {%- else -%}
             <div class="mini-cart__recommendations-inner">
               <div class="spinner">
-                {%- render 'icon' with 'spinner', stroke_width: 3, width: 40, height: 40 -%}
+                {%- render 'icon', icon: 'spinner', stroke_width: 3, width: 40, height: 40 -%}
               </div>
             </div>
           {%- endif -%}
@@ -311,7 +311,7 @@
         <ul class="mini-cart__discount-list list--unstyled" role="list">
           {%- for discount_application in cart.cart_level_discount_applications -%}
             <li class="mini-cart__discount">
-              <span class="mini-cart__discount-badge discount-badge">{%- render 'icon' with 'discount-badge' -%}{{ discount_application.title }}</span>
+              <span class="mini-cart__discount-badge discount-badge">{%- render 'icon', icon: 'discount-badge' -%}{{ discount_application.title }}</span>
               <span class="mini-cart__discount-price text--xsmall text--subdued">-{{ discount_application.total_allocated_amount | money }}</span>
             </li>
           {%- endfor -%}
@@ -338,7 +338,7 @@
 
       {%- if section.settings.show_checkout_button -%}
         <button is="loader-button" form="mini-cart-form" type="submit" class="checkout-button button button--primary button--full" name="checkout">
-          <span class="checkout-button__lock">{%- render 'icon' with 'lock' -%}</span>
+          <span class="checkout-button__lock">{%- render 'icon', icon: 'lock' -%}</span>
 
           {{- 'cart.general.checkout' | t -}}
           <span class="square-separator"></span>
