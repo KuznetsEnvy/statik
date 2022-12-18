@@ -6214,7 +6214,8 @@ input:checked + .popover__choice-label::after,
   box-shadow: 0 0 0 1px rgba(var(--text-color), 0.3) inset;
 }
 
-.color-swatch__radio:checked + .color-swatch__item::after {
+.color-swatch__radio:checked + .color-swatch__item::after,
+.color-swatch__item--active::after {
   opacity: 1;
   transform: scale(1);
 }

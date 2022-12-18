@@ -159,6 +159,29 @@
           </product-variants>
         {%- endunless -%}
 
+      {%- when 'variant_redirect' -%}
+        {% if product.handle contains 'light-cable-' %}
+          <div class="product-form__option-selector">
+            <div class="product-form__option-info">
+              <span>Color:</span><span class="product-form__option-value">{{ product.handle | split: '-' | last | capitalize }}</span>
+            </div>
+            <div class="color-swatch-list">
+              {% assign glo_bright_colors = 'red,blue,green' | split:',' %}
+              {% for c in glo_bright_colors %}
+                {% assign p_handle = 'light-cable-' | append: c %}
+                {% assign prd = all_products[p_handle] %}
+                {% unless block.settings.hide_sold_out_variants and prd.available == false %}
+                  <div class="color-swatch">
+                    <a href="/products/{{ p_handle }}" class="color-swatch__item{% if product.handle == p_handle %} color-swatch__item--active{% endif %}" style="background-color: {{ c }}">
+                      <span class="visually-hidden">{{ c | capitalize }}</span>
+                    </a>
+                  </div>
+                {% endunless %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
       LINE ITEM PROPERTY
