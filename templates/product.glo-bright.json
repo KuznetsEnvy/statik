@@ -12,6 +12,12 @@
             "size_chart_page": ""
           }
         },
+        "56f0be35-9c58-474a-bc4d-65abba185836": {
+          "type": "variant_redirect",
+          "settings": {
+            "hide_sold_out_variants": false
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -36,6 +42,7 @@
       },
       "block_order": [
         "variant_picker",
+        "56f0be35-9c58-474a-bc4d-65abba185836",
         "quantity_selector",
         "buy_buttons",
         "b2990ffc-2461-47c6-bbf4-e700794c1439"

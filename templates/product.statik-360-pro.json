@@ -19,8 +19,15 @@
         },
         "889f4cce-9c1d-4683-aeff-d7998479285d": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<p style=\"color:red;\">Pre-order now: ships December 16th<\/p>"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
           }
         },
         "buy_buttons": {
@@ -32,21 +39,14 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>"
-          }
         }
       },
       "block_order": [
         "variant_picker",
         "quantity_selector",
         "889f4cce-9c1d-4683-aeff-d7998479285d",
-        "buy_buttons",
-        "b2990ffc-2461-47c6-bbf4-e700794c1439"
+        "b2990ffc-2461-47c6-bbf4-e700794c1439",
+        "buy_buttons"
       ],
       "settings": {
         "show_vendor": false,

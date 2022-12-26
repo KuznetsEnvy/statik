@@ -178,7 +178,7 @@
             "text_position_mobile": "middle_center",
             "subheading": "better, stronger and faster than ever.",
             "title": "Statik 360 Pro",
-            "button_1_text": "pre order now",
+            "button_1_text": "Shop now",
             "button_1_link": "shopify:\/\/products\/statik-360-pro",
             "button_2_text": "",
             "button_2_link": "",
@@ -349,7 +349,7 @@
             "subheading": "Light Up, Charge Up, Have Fun",
             "title": "GloBright Cable",
             "button_1_text": "Shop now",
-            "button_1_link": "shopify:\/\/products\/light-cable",
+            "button_1_link": "shopify:\/\/products\/light-cable-blue",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
@@ -433,8 +433,8 @@
           "settings": {
             "collection": "sale",
             "label": "",
-            "button_text": "",
-            "button_url": ""
+            "button_text": "Explore all sales",
+            "button_url": "shopify:\/\/collections\/sale"
           }
         }
       },
@@ -444,7 +444,7 @@
       "settings": {
         "subheading": "statik last change",
         "title": "Shop Sale",
-        "content": "<p><\/p>",
+        "content": "",
         "products_count": 4,
         "products_per_row": 4,
         "stack_products": true,

@@ -150,7 +150,7 @@
         "settings": {
           "show_order_note": true,
           "show_checkout_button": true,
-          "empty_button_link": "shopify:\/\/collections\/key-organizers",
+          "empty_button_link": "shopify:\/\/collections\/cables",
           "show_recommendations": true,
           "recommendations_title": "Try These Accessories"
         }
