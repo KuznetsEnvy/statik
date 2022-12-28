@@ -20,7 +20,7 @@
         "b2990ffc-2461-47c6-bbf4-e700794c1439": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if product.tags contains 'presale' %}\n<p style=\"color:red;\">Pre-order now: ships December 31st<\/p>\n{% else %}<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>\n{% endif %}"
+            "liquid": "{% if product.tags contains 'presale' %}\n<p style=\"color:red;\">Pre-order now: ships January 31st<\/p>\n{% else %}<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -128,9 +128,9 @@
     "82dc4537-3bc6-4a08-ae5a-04339c80cd0f": {
       "type": "image-with-text-block",
       "settings": {
-        "bottompadding": "",
+        "bottompadding": "2em",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-04.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_02.png",
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-04.png",
         "subheading": "",
         "title": "",
@@ -150,9 +150,9 @@
     "619e6c1a-9833-4197-8b2d-51a712378ed8": {
       "type": "image-with-text-block",
       "settings": {
-        "bottompadding": "",
+        "bottompadding": "2em",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-05.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_03.png",
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-05.png",
         "subheading": "",
         "title": "Charge Up To 3 Devices At Once",
