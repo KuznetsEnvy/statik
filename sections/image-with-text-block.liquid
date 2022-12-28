@@ -66,14 +66,23 @@
       }
     {%- endunless -%}
   }
+
+  {% if section.settings.contain_desktop and section.settings.contain_desktop_expand and section.settings.image != blank %}
+    {% assign the_image = section.settings.image %}
+    @media screen and (min-width: 1000px) {
+        .image-with-text-block-{{ section.id }} {
+            min-height: calc(100vw *{{ the_image.height }} / {{ the_image.width }});
+        }
+    }
+  {% endif %}
 </style>
 
 <section class="section {% unless is_boxed or section.settings.text_position contains 'overlap' %}section--flush{% endunless %}">
   <div {% if is_boxed %}class="container"{% endif %}>
-    <image-with-text-block {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-with-text-block {% if section.settings.text_position contains 'overlap' %}image-with-text-block--overlap-{{ section.settings.text_position | split: '_' | last }}{% endif %}">
+    <image-with-text-block {% if section.settings.reveal_on_scroll %}reveal-on-scroll{% endif %} class="image-with-text-block image-with-text-block-{{ section.id }} {% if section.settings.text_position contains 'overlap' %}image-with-text-block--overlap-{{ section.settings.text_position | split: '_' | last }}{% endif %}">
       <div class="image-with-text-block__image-wrapper">
         {%- if section.settings.image != blank -%}
-          <img class="image-with-text-block__image {% if section.settings.mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.reveal_on_scroll %}reveal{% endif %} loading="lazy" sizes="(max-width: 999px) 100vw, {% if section.settings.text_position contains 'overlap' %}72vw{% elsif section.settings.background_type == 'boxed' %}min(1520px, 100vw){% else %}100vw{% endif %}" {% render 'image-attributes', image: section.settings.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' %}>
+          <img class="image-with-text-block__image{% if section.settings.contain_desktop %} image-with-text-block__image--contain{% endif %}{% if section.settings.mobile_image != blank %} hidden-pocket{% endif %}" {% if section.settings.reveal_on_scroll %}reveal{% endif %} loading="lazy" sizes="(max-width: 999px) 100vw, {% if section.settings.text_position contains 'overlap' %}72vw{% elsif section.settings.background_type == 'boxed' %}min(1520px, 100vw){% else %}100vw{% endif %}" {% render 'image-attributes', image: section.settings.image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' %}>
 
           {%- if section.settings.mobile_image != blank -%}
             <img class="image-with-text-block__image hidden-lap-and-up" {% if section.settings.reveal_on_scroll %}reveal{% endif %} loading="lazy" sizes="100vw" {% render 'image-attributes', image: section.settings.mobile_image, sizes: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400' %}>
@@ -145,8 +154,7 @@
       "type": "text",
       "id": "bottompadding",
       "label": "Bottom Padding"
-      },
-    {
+    }, {
       "type": "checkbox",
       "id": "reveal_on_scroll",
       "label": "Reveal on scroll",
@@ -158,6 +166,18 @@
       "id": "image",
       "label": "Image",
       "info": "2800 x 1400px .jpg recommended. Image may be cut based on screen size."
+    }, {
+      "type": "checkbox",
+      "id": "contain_desktop",
+      "label": "Object-fit: contain",
+      "info": "If checked, object-fit CSS property for desktop will be set to 'contain', otherwise 'cover'",
+      "default": false
+    }, {
+      "type": "checkbox",
+      "id": "contain_desktop_expand",
+      "label": "Object-fit: contain expands the block",
+      "info": "In addition to previous checkbox, make the image stretch the container height (if not checked, the image will get smaller in case it's own aspect ratio is smaller then container aspect ratio)",
+      "default": false
     },
     {
       "type": "image_picker",

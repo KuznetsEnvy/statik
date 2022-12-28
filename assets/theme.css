@@ -10391,7 +10391,8 @@ input:checked + .popover__choice-label::after,
 
 .image-with-text-block__image-wrapper {
   overflow: hidden;
-  background: rgb(var(--secondary-background)); /* Act as a filler */
+  /*background: rgb(var(--secondary-background)); !* Act as a filler *!*/
+  background: rgb(var(--background));
 }
 
 .image-with-text-block__content {
@@ -10511,6 +10512,10 @@ input:checked + .popover__choice-label::after,
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
+  }
+  .image-with-text-block__image.image-with-text-block__image--contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 
   .image-with-text-block__content {
