@@ -25,6 +25,10 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
+    {%- elsif request.page_type == 'collection' -%}
+      <meta name="description" content="{% render 'collection-meta-description', collection: collection %}">
+    {%- else -%}
+      <meta name="description" content="{{ page_title | escape }}">
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">

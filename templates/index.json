@@ -2,6 +2,7 @@
   "sections": {
     "c143abe6-a403-43d8-b2d2-8eab7dd02c9e": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--16019067633857__c143abe6-a403-43d8-b2d2-8eab7dd02c9e-1670507647e4497b09-0": {
           "type": "image",
@@ -41,6 +42,7 @@
     },
     "9c9dcf9d-1c73-4825-bcd0-a1c37e5499a6": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "template--16019067633857__9c9dcf9d-1c73-4825-bcd0-a1c37e5499a6-16705076581d0c067a-0": {
           "type": "collection",
@@ -80,7 +82,7 @@
             "text_position_mobile": "bottom_center",
             "subheading": "Better. stronger. faster.",
             "title": "Statik 360 pro",
-            "button_1_text": "PRO ORDER NOW",
+            "button_1_text": "SHOP NOW",
             "button_1_link": "shopify:\/\/products\/statik-360-pro",
             "button_2_text": "",
             "button_2_link": "",
@@ -88,6 +90,25 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "ce4919e8-1ca8-457d-a455-f12c37df1df4": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/ultimate-charger-banner-mob.png",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify:\/\/products\/ultimate-charger-statik",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#282828",
+            "button_text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0
           }
         },
@@ -151,6 +172,7 @@
       },
       "block_order": [
         "2457107a-1027-4763-88d1-023f330e870b",
+        "ce4919e8-1ca8-457d-a455-f12c37df1df4",
         "40844899-fc39-479b-9f47-40317560c49d",
         "b890c296-07eb-4c25-b64e-feab3ffc3b64",
         "c4da9aca-20c9-4d20-88bd-bfa976a59fe6"
@@ -184,6 +206,25 @@
             "button_2_link": "",
             "text_color": "#000000",
             "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "7d56b44d-5c67-49b5-b458-714ecbc7f901": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ultimate-charger-banner-desk.png",
+            "text_position": "bottom_left",
+            "text_position_mobile": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify:\/\/products\/ultimate-charger-statik",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#282828",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -249,6 +290,7 @@
       },
       "block_order": [
         "270c38a0-600c-4239-99e2-e0e78376dfc7",
+        "7d56b44d-5c67-49b5-b458-714ecbc7f901",
         "1b5b2f90-ad90-4abe-b914-515d764526d9",
         "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0",
         "6dc8c5da-a499-4a32-b71b-3f3c45b709fa"
@@ -500,6 +542,8 @@
         "bottompadding": "",
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/about_us_banner.png",
+        "contain_desktop": false,
+        "contain_desktop_expand": false,
         "mobile_image": "shopify:\/\/shop_images\/pexels-alexander-gorodilov-8643541.jpg",
         "subheading": "about us",
         "title": "We Love Adventure",

@@ -64,7 +64,7 @@ More information:
   <meta name="twitter:description" content="{{ article.excerpt_or_content | strip_html | truncatewords: 140, '' | escape }}">
 {%- elsif request.page_type == 'collection' -%}
   <meta name="twitter:title" content="{{ collection.title }}">
-  <meta name="twitter:description" content="{{ collection.description | strip_html | truncatewords: 140, '' | escape }}">
+  <meta name="twitter:description" content="{% render 'collection-meta-description', collection: collection %}">
 {%- else -%}
   <meta name="twitter:title" content="{{ page_title | escape }}">
   <meta name="twitter:description" content="{{ page_description | default: page_title | escape }}">

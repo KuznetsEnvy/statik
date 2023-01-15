@@ -1,0 +1,14 @@
+{%- if collection.description != blank -%}
+  {{- collection.description | strip_html | truncatewords: 140, '' | escape -}}
+{%- elsif collection.products.size > 0 -%}
+  {%- assign p_limit = 5 -%}
+  {%- capture desc -%}
+    {{- shop.name | escape -}}{{- collection.title | escape | prepend: ' - ' | append: ': meet' -}}
+    {%- for product in collection.products limit: p_limit -%}
+      {% if forloop.last and collection.products.size <= p_limit %} and{% else %}{% unless forloop.first %},{% endunless %}{% endif %}{{ product.title | escape | prepend: ' ' }}{% if forloop.last  %}{% if collection.products.size > p_limit %} and our other products.{% else %}.{% endif %}{% endif %}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {{- desc | strip_newlines -}}
+{%- else -%}
+  {{ shop.name | escape }} - {{ collection.title | escape }} - Product collection is temporary empty
+{%- endif -%}

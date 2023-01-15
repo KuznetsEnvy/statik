@@ -20,7 +20,7 @@
         "b2990ffc-2461-47c6-bbf4-e700794c1439": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if product.tags contains 'presale' %}\n<p style=\"color:red;\">Pre-order now: ships January 31st<\/p>\n{% else %}<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>\n{% endif %}"
+            "liquid": "{% if product.tags contains 'presale' %}\n<p style=\"color:red;\">Pre-order now: ships January 3rd<\/p>\n{% else %}<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -131,6 +131,8 @@
         "bottompadding": "2em",
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_02.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-04.png",
         "subheading": "",
         "title": "",
@@ -152,7 +154,9 @@
       "settings": {
         "bottompadding": "2em",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_03.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_03_c75b1b6a-7ccf-41ec-9b8a-08057c1eb1b8.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": false,
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-05.png",
         "subheading": "",
         "title": "Charge Up To 3 Devices At Once",
@@ -174,7 +178,9 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-07.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_04.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-07.png",
         "subheading": "",
         "title": "",
@@ -196,15 +202,17 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-08.png",
-        "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-08.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_05.png",
+        "contain_desktop": false,
+        "contain_desktop_expand": false,
+        "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-08_b3c7c55a-1f2c-497f-973d-5e8a0491495d.png",
         "subheading": "",
         "title": "Rapid Recharge Gets You Back To Work & Play Faster",
         "content": "<p>Use the USB-C port and go from 0 to 100% charge in as fast as 1.25 hours. Don't have a USB-C cable? Use the Micro-USB or Lightning ports to recharge the Ultimate Charger from 0-50% in 5.5 hours.<\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_position": "left",
+        "text_position": "right",
         "text_position_mobile": "center",
         "text_alignment": "center",
         "text_background": "rgba(0,0,0,0)",
@@ -288,7 +296,9 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-10.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_06.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-10.png",
         "subheading": "",
         "title": "Wide Compatibility For All Your Devices",
@@ -310,7 +320,9 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-12.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_07.png",
+        "contain_desktop": false,
+        "contain_desktop_expand": false,
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-12.png",
         "subheading": "",
         "title": "Safe, Durable & Travel Friendly",
@@ -332,7 +344,9 @@
       "settings": {
         "bottompadding": "",
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-14.png",
+        "image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_-_desktop_-_assets_08.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
         "mobile_image": "shopify:\/\/shop_images\/UltimateCharger_ProductPage_assets-14.png",
         "subheading": "",
         "title": "",
@@ -347,6 +361,36 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ccac933c-ce98-4650-b3bf-c780e5b5ecd0": {
+      "type": "faq",
+      "blocks": {
+        "template--16060846702785__ccac933c-ce98-4650-b3bf-c780e5b5ecd0-167224992789919144-4": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to charge the Ultimate Charger?",
+            "answer": "<p>The charging times vary depending on the type of cable and power adapter. When using a 65W power adapter and the USB-C port, the charge time from 0-100% can be as fast as 1.25 hours. When using the Lightning or Micro-USB port, the charge time from 0-100% can be as fast as 11.5 hours. To optimize charging time, use a USB-C cable with up to a 65W power adapter.<\/p>"
+          }
+        },
+        "f2951c5e-abd7-4dba-8bfa-a53cb98c70e3": {
+          "type": "question",
+          "settings": {
+            "title": "Can I charge my laptop and phone at the same time?",
+            "answer": "<p>While charging two devices at once, the maximum power output is limited to 15W per port to prevent the device from overheating. Most laptops require at least 65W of power to recharge their internal battery so you would need to disconnect your phone until you are done charging your laptop.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16060846702785__ccac933c-ce98-4650-b3bf-c780e5b5ecd0-167224992789919144-4",
+        "f2951c5e-abd7-4dba-8bfa-a53cb98c70e3"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "c9a786cc-fd43-4697-a848-34a05d3af3cc": {
@@ -421,6 +465,7 @@
     "f518ac7d-1071-42fa-8251-6c1f98ef58cf",
     "47f0e9b7-723c-439f-8241-9e213ce082a6",
     "0ff1b454-55bc-432a-8d40-82984864ad9e",
+    "ccac933c-ce98-4650-b3bf-c780e5b5ecd0",
     "c9a786cc-fd43-4697-a848-34a05d3af3cc",
     "judgeme_section_review_widget_2ec6",
     "24623d44-bdc1-4fc5-b8a4-110b0648a5ec"
