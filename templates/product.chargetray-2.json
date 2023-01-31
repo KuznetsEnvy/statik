@@ -1,0 +1,467 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "b2990ffc-2461-47c6-bbf4-e700794c1439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.tags contains 'presale' %}\n<p style=\"color:red; text-align: center;\">Pre-order now: ships February  13th<\/p>\n{% else %}<p style=\"text-align: center;\">🇺🇸 Shipping Within <b>24 Hours<\/b><\/p>\n{% endif %}"
+          }
+        },
+        "a39f9b18-9c60-4893-b3cc-aae9d5b08d4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-03.png",
+            "image_alignment": "center",
+            "image_width": 500
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "b2990ffc-2461-47c6-bbf4-e700794c1439",
+        "a39f9b18-9c60-4893-b3cc-aae9d5b08d4d"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "b3f4047d-3f5e-411c-9090-2f98525621c1": {
+          "type": "content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page": "shipping-returns"
+          }
+        },
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0": {
+          "type": "content",
+          "settings": {
+            "title": "1 Year Warranty",
+            "content": "",
+            "page": "warranty"
+          }
+        },
+        "282ac2ff-4d0c-4dc8-bdac-39f8aa717dba": {
+          "type": "featured_products",
+          "settings": {
+            "title": "Useful Accessories",
+            "product_1": "{{ product.metafields.custom.product_recommendation_1.value }}",
+            "product_2": "{{ product.metafields.custom.product_recommendation_2.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "9d74e07b-e949-4e59-b8b6-a8ef637e89d9",
+        "b3f4047d-3f5e-411c-9090-2f98525621c1",
+        "7d94852a-d36c-48c4-a4b6-b8738b3ca4d0",
+        "282ac2ff-4d0c-4dc8-bdac-39f8aa717dba"
+      ],
+      "settings": {
+      }
+    },
+    "9b59f0c2-6804-427d-ac02-c6d4b3497bd1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Power & Organize Your Daily Essentials",
+        "content": "<p>ChargeTray is a modern leather valet tray that can charge up to 3 devices and convenient store all of your daily essentials. With built-in over-heating and over-charging protection, you never have to worry about leaving your phone unattended while charging.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "82dc4537-3bc6-4a08-ae5a-04339c80cd0f": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "2em",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-13.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": false,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-04.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cdea2f3f-02ee-4a91-b9a3-20ccf5a75bb3": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-14.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-05.png",
+        "subheading": "",
+        "title": "Charge Your Phone, Watch & Headphones",
+        "content": "<p>The ChargeTray features an 15W wireless charger, USB-C port and USB-A port so you can keep all your daily devices powered.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a188c67d-c696-4ad1-92c4-dd7f03f5790c": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-15.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-06.png",
+        "subheading": "",
+        "title": "Safe & Fast Charging For Your Devices",
+        "content": "<p>SmartChip protection prevents damaging your devices from overcharging. Never worry about leaving your phone charging overnight again. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "121d0c3a-4cf6-483a-bd2a-9668b732bee5": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-16.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-07.png",
+        "subheading": "",
+        "title": "Premium Micro-Touch Leather & Anti-Slip Pad",
+        "content": "<p>ChargeTray’s modern design seamlessly fits into any decor providing a powerful and organized space for your daily essentials.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4d8bc660-0bf7-49ad-8c63-8599c10e24d1": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Compatible With Your Small Daily Devices",
+        "content": "<p>The USB-A and USB-C port share 5W of total output. The ports will not support charging larger devices such as tablets.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "47f0e9b7-723c-439f-8241-9e213ce082a6": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-17.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": false,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage-230127-08.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0ff1b454-55bc-432a-8d40-82984864ad9e": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-18.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": false,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-10.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_position_mobile": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b8cda78b-caef-473f-b938-0a777b725998": {
+      "type": "image-with-text-block",
+      "settings": {
+        "bottompadding": "",
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/ChargeTrayProductPage_Assets_Desktop_230130-19.png",
+        "contain_desktop": true,
+        "contain_desktop_expand": true,
+        "mobile_image": "shopify:\/\/shop_images\/ChargeTrayProductPage_230127-11.png",
+        "subheading": "",
+        "title": "What’s Included In The Box",
+        "content": "<p>Power Cable, 18 W Power Adapter (USB-A to USB-C), Charge Tray<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_position_mobile": "right",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ccac933c-ce98-4650-b3bf-c780e5b5ecd0": {
+      "type": "faq",
+      "blocks": {
+        "template--16060846702785__ccac933c-ce98-4650-b3bf-c780e5b5ecd0-167224992789919144-4": {
+          "type": "question",
+          "settings": {
+            "title": "Does the ChargeTray come with a power adapter?",
+            "answer": "<p>Yes! the ChargeTray comes with an 18W power adapter as well as a USB-A to USB-C cable.<\/p>"
+          }
+        },
+        "f2951c5e-abd7-4dba-8bfa-a53cb98c70e3": {
+          "type": "question",
+          "settings": {
+            "title": "What is the maximum output of the wireless charger?",
+            "answer": "<p>15W using the included power adapter<\/p>"
+          }
+        },
+        "c1a5bf22-3331-4f59-9944-5bf8a5e4ce12": {
+          "type": "question",
+          "settings": {
+            "title": "What is the maximum output of the wired ports?",
+            "answer": "<p>The maximum output of the wired ports is 5W each. These ports are designed for charging smaller devices such as wireless headphones and smart watches.<br\/><br\/>While a device is being wirelessly charged, the two wired ports share 5W of output.<\/p>"
+          }
+        },
+        "b6ffef9a-edd5-4945-b2eb-2917c01b6f9e": {
+          "type": "question",
+          "settings": {
+            "title": "Will it charge my phone if it’s in a case?",
+            "answer": "<p>Yes, the wireless charger can connect with a device at a maximum distance of 8mm which is less than the thickness of most cell phone cases.<\/p>"
+          }
+        },
+        "46589c6f-68d8-442e-9b5e-25eba8568044": {
+          "type": "question",
+          "settings": {
+            "title": "Will the wireless charger work with my smart watch?",
+            "answer": "<p>The wireless charger is not designed to charge smart watches as they use proprietary connectors to wirelessly charge. You can connect the cable to the wired port to charge your smart watch.<\/p>"
+          }
+        },
+        "a150b95d-90bf-4474-85ef-9309e3999296": {
+          "type": "question",
+          "settings": {
+            "title": "Will the wireless charger work with my phone?",
+            "answer": "<p>The wireless charger uses the Qi (chee) standard which is compatible with all iPhone models 8 & newer along with most other smartphone manufacturers.<\/p>"
+          }
+        },
+        "c51629f2-5b3a-4703-bb47-66eeb83247b7": {
+          "type": "question",
+          "settings": {
+            "title": "Is the ChargeTray compatible with iPhone 12 and newer?",
+            "answer": "<p>Yes, the ChargeTray is compatible with the iPhone 12, iPhone 12 Pro, and iPhone 12 mini via Qi wireless charging up to 7.5W.<\/p>"
+          }
+        },
+        "2efdc77d-16c5-4fb3-84bd-197fc41b5efe": {
+          "type": "question",
+          "settings": {
+            "title": "Is the ChargeTray universal in all countries?",
+            "answer": "<p>The ChargeTray is universal using the USB cable, but is only compatible in the US with the power adapter provided.<\/p>"
+          }
+        },
+        "2960289e-2030-431a-a4c1-2bd752e520a9": {
+          "type": "question",
+          "settings": {
+            "title": "What is wireless charging?",
+            "answer": "<p>Wireless charging is a cable-free way to charge your devices. Through inductive charging, energy is transferred from the wireless charger to your phone.<\/p>"
+          }
+        },
+        "c2f93864-f2c1-4a97-9eab-9ee13556de9e": {
+          "type": "question",
+          "settings": {
+            "title": "Do both sides of the ChargeTray charge or just the left side?",
+            "answer": "<p>Just the left side where the charging icon is located. ChargeTray is designed as both a charger and valet tray. The left side charges your device, while the right side is a place to store your everyday items.<\/p>"
+          }
+        },
+        "7a4a7f03-d6a8-49c3-a35d-7fa529f7c15d": {
+          "type": "question",
+          "settings": {
+            "title": "Is wireless charging as fast as plugging in your phone?",
+            "answer": "<p>It depends. The ChargeTray can charge up to 15W, which is faster than charging your phone when using a standard 5W power adapter (included in most smartphone boxes). However some newer smartphone devices can charge up to 25 or even 50 watts using special chargers. However, to extend the life of your phone it could be beneficial to limit the amount of super-fast charging you do.<\/p>"
+          }
+        },
+        "5e3576f5-e0f7-4533-9c3e-74ef4e2759bf": {
+          "type": "question",
+          "settings": {
+            "title": "Can I charge my iPad or tablet from the USB-A or USB-C port?",
+            "answer": "<p>The two ports share 5W of total charging power, which is not recommended for larger devices. The two ports are perfect for charging devices such as airpods, smart watches, fitness trackers, and other small electronics.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16060846702785__ccac933c-ce98-4650-b3bf-c780e5b5ecd0-167224992789919144-4",
+        "f2951c5e-abd7-4dba-8bfa-a53cb98c70e3",
+        "c1a5bf22-3331-4f59-9944-5bf8a5e4ce12",
+        "b6ffef9a-edd5-4945-b2eb-2917c01b6f9e",
+        "46589c6f-68d8-442e-9b5e-25eba8568044",
+        "a150b95d-90bf-4474-85ef-9309e3999296",
+        "c51629f2-5b3a-4703-bb47-66eeb83247b7",
+        "2efdc77d-16c5-4fb3-84bd-197fc41b5efe",
+        "2960289e-2030-431a-a4c1-2bd752e520a9",
+        "c2f93864-f2c1-4a97-9eab-9ee13556de9e",
+        "7a4a7f03-d6a8-49c3-a35d-7fa529f7c15d",
+        "5e3576f5-e0f7-4533-9c3e-74ef4e2759bf"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "judgeme_section_review_widget_2ec6": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_f1237889": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_f1237889"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec": {
+      "type": "simple-hero",
+      "settings": {
+        "link": "",
+        "bottompadding": "",
+        "toppadding": "",
+        "buttontext": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "9b59f0c2-6804-427d-ac02-c6d4b3497bd1",
+    "82dc4537-3bc6-4a08-ae5a-04339c80cd0f",
+    "cdea2f3f-02ee-4a91-b9a3-20ccf5a75bb3",
+    "a188c67d-c696-4ad1-92c4-dd7f03f5790c",
+    "121d0c3a-4cf6-483a-bd2a-9668b732bee5",
+    "4d8bc660-0bf7-49ad-8c63-8599c10e24d1",
+    "47f0e9b7-723c-439f-8241-9e213ce082a6",
+    "0ff1b454-55bc-432a-8d40-82984864ad9e",
+    "b8cda78b-caef-473f-b938-0a777b725998",
+    "ccac933c-ce98-4650-b3bf-c780e5b5ecd0",
+    "judgeme_section_review_widget_2ec6",
+    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec"
+  ]
+}
