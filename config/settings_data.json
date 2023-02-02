@@ -30,7 +30,7 @@
     "stagger_blog_posts_apparition": false,
     "reveal_product_media": false,
     "round_color_swatches": true,
-    "color_swatch_config": "",
+    "color_swatch_config": "Slate: #cccccc\nRose gold: #BD7D74\nTitanium: #cccccc\nBlush: #DC9F9F\nSteel Grey: #43464B",
     "show_vendor": false,
     "show_secondary_image": true,
     "product_add_to_cart": false,
