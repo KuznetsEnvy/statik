@@ -87,7 +87,8 @@
           {%- assign image_aspect_ratio = image_aspect_ratio | times: 2.0 -%}
         {%- endif -%}
 
-        {%- if forloop.index > 2 -%}
+        {%- if forloop.index > 0 -%}
+          {% comment %}Dmitrii: this was forloop.index > 2, but it did load hidden images (unwanted behaviour){% endcomment %}
           {%- assign loading_attribute_value = 'lazy' -%}
           {%- assign preload_image = false -%}
         {%- else -%}
