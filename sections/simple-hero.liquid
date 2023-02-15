@@ -1,27 +1,39 @@
-<div style="height:{{ section.settings.toppadding }}"></div>
+{% if section.settings.image != blank or section.settings.imagemobile != blank %}
+  <div style="height:{{ section.settings.toppadding }}"></div>
 
-<div class="simple-hero-{{ section.id }}">
-  
-  {% if section.settings.image != blank %}<img {% if section.settings.link != blank %}onClick="location.href='{{ section.settings.link }}'"{% endif %} src="{{section.settings.image | img_url:'x1080'}}" class="hide-mobile">{% endif %}
-  {% if section.settings.imagemobile != blank %}<img {% if section.settings.link != blank %}onClick="location.href='{{ section.settings.link }}'"{% endif %} src="{{section.settings.imagemobile | img_url:'x1080'}}" class="hide-desktop">{% endif %}
+  <div class="simple-hero-{{ section.id }}">
 
-</div>
+    {% if section.settings.link != blank %}<a href="{{ link }}">{% endif %}
 
+        {% if section.settings.image != blank and section.settings.imagemobile != blank %}
+          <picture>
+            <source media="(min-width: 741px)" sizes="100vw" {% render 'image-attributes', image: section.settings.image, sizes: '750,828,920,945,960,1080,1280,1440,1600,1800,2000,2200,2560,2800,3000', ignore_src: true %}>
+            <img sizes="100vw" class="" loading="lazy" {% render 'image-attributes', image: section.settings.imagemobile, sizes: '200,320,360,375,414,500,640,720,750,828,920,945,960,1080,1280,1440,1600,1800,2000,2200,2560,2800,3000' %}>
+          </picture>
+        {% else %}
+          {% if section.settings.imagemobile != blank %}
+            {%- assign media = section.settings.imagemobile -%}
+          {% else %}
+            {%- assign media = section.settings.image -%}
+          {% endif %}
+          <img
+              {% render 'image-attributes', image: media, sizes: '200,320,360,375,414,500,640,720,750,828,920,945,960,1080,1280,1440,1600,1800,2000,2200,2560,2800,3000' %}
+              loading="lazy"
+              sizes="100vw"
+              class="{% if section.settings.imagemobile != blank %}hide-desktop{% else %}hide-mobile{% endif %}">
+        {% endif %}
 
-<div style="height:{{ section.settings.bottompadding }}"></div>
+    {% if section.settings.link != blank %}</a>{% endif %}
+  </div>
 
-<style>
-.simple-hero-{{ section.id }}{ width: 100% !important; position: relative; }
+  <div style="height:{{ section.settings.bottompadding }}"></div>
 
-.simple-hero-{{ section.id }} img{width: 100% !important; }
+  <style>
+      .simple-hero-{{ section.id }}{ width: 100% !important; position: relative; }
 
-  {% if section.settings.link != blank %}
-  .simple-hero-{{ section.id }}:hover, .simple-hero-{{ section.id }}:focus{
-    cursor: pointer;
-  }
-  {% endif %}
-  
-</style>
+      .simple-hero-{{ section.id }} img{width: 100% !important; }
+  </style>
+{% endif %}
 
 {% schema %}
   {
