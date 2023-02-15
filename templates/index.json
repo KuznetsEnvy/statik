@@ -74,6 +74,25 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "c4da9aca-20c9-4d20-88bd-bfa976a59fe6": {
+          "type": "image",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/STATIK_-_sales_-_mob_65305643-280e-4995-a23e-5882b08731c9.png",
+            "text_position": "bottom_center",
+            "text_position_mobile": "bottom_center",
+            "subheading": "20% off usING code “Flash20”",
+            "title": "Flash Sales",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/cables",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#282828",
+            "button_background": "#ae00ff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "2457107a-1027-4763-88d1-023f330e870b": {
           "type": "image",
           "settings": {
@@ -149,33 +168,14 @@
             "overlay_color": "#000000",
             "overlay_opacity": 28
           }
-        },
-        "c4da9aca-20c9-4d20-88bd-bfa976a59fe6": {
-          "type": "image",
-          "settings": {
-            "mobile_image": "shopify:\/\/shop_images\/WIRELESS.png",
-            "text_position": "bottom_center",
-            "text_position_mobile": "bottom_center",
-            "subheading": "get the most efficient wireless charger available",
-            "title": "Wireless Charger",
-            "button_1_text": "shop now",
-            "button_1_link": "shopify:\/\/products\/statik-wireless-charger",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
+        "c4da9aca-20c9-4d20-88bd-bfa976a59fe6",
         "2457107a-1027-4763-88d1-023f330e870b",
         "ce4919e8-1ca8-457d-a455-f12c37df1df4",
         "40844899-fc39-479b-9f47-40317560c49d",
-        "b890c296-07eb-4c25-b64e-feab3ffc3b64",
-        "c4da9aca-20c9-4d20-88bd-bfa976a59fe6"
+        "b890c296-07eb-4c25-b64e-feab3ffc3b64"
       ],
       "settings": {
         "mobile_text_color": "",
@@ -192,6 +192,25 @@
     "8f06bd98-8f69-45cc-a24d-4715f7109015": {
       "type": "slideshow",
       "blocks": {
+        "6dc8c5da-a499-4a32-b71b-3f3c45b709fa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/STATIK_-_sales_-_desk_ed88e542-a0a4-4ddd-a61a-9e7708fb0286.png",
+            "text_position": "middle_center",
+            "text_position_mobile": "middle_center",
+            "subheading": "20% off usING code “Flash20”",
+            "title": "Flash Sales",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/cables",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#282828",
+            "button_background": "#ae00ff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "270c38a0-600c-4239-99e2-e0e78376dfc7": {
           "type": "image",
           "settings": {
@@ -267,33 +286,14 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "6dc8c5da-a499-4a32-b71b-3f3c45b709fa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wireless_charge_11098e4c-b86f-4988-bb58-75e9d130dc57.png",
-            "text_position": "middle_left",
-            "text_position_mobile": "middle_center",
-            "subheading": "get the most efficient wireless charger available",
-            "title": "Wireless Charger",
-            "button_1_text": "shop now",
-            "button_1_link": "shopify:\/\/products\/statik-wireless-charger",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
+        "6dc8c5da-a499-4a32-b71b-3f3c45b709fa",
         "270c38a0-600c-4239-99e2-e0e78376dfc7",
         "7d56b44d-5c67-49b5-b458-714ecbc7f901",
         "1b5b2f90-ad90-4abe-b914-515d764526d9",
-        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0",
-        "6dc8c5da-a499-4a32-b71b-3f3c45b709fa"
+        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0"
       ],
       "settings": {
         "mobile_text_color": "#000000",

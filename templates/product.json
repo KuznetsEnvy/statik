@@ -122,82 +122,6 @@
       "settings": {
       }
     },
-    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/KS-PRO.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
-    "78dc7512-1ed7-4bbb-9d46-c83b1daf3397": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Prancheta_5_ac338f8a-5e6e-4866-9f3e-aaca8bc72a99.png",
-        "imagemobile": "shopify:\/\/shop_images\/KPRO_02.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
-    "e3dea522-ca0c-46f2-b7c9-1bb88868104b": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Prancheta_4-1_ec0e3b4c-4ada-4fd5-b150-bd58665087f6.png",
-        "imagemobile": "shopify:\/\/shop_images\/KPRO_03.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
-    "b02d0662-f0ab-4efe-a837-07e73c42a2fd": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Prancheta_1_c8492894-f24d-46a4-afbc-7644aac63517.png",
-        "imagemobile": "shopify:\/\/shop_images\/KPRO_04.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
-    "bacc29e3-791c-49de-8ba6-74e2b9138328": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Prancheta_3_d7de5507-4f72-432f-89a1-0675b08e25b4.png",
-        "imagemobile": "shopify:\/\/shop_images\/KPRO_05.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
-    "5d9a25d5-f2df-4935-ae7c-febb4bd226a7": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Prancheta_4_e04872b3-107d-4ed5-98dc-510ad3882343.png",
-        "imagemobile": "shopify:\/\/shop_images\/Prancheta-1_11_551e5e54-3ee1-489f-bfec-ec4725891aca.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
-    "d803f0fc-6a3d-42b4-aa97-a6684870e9c8": {
-      "type": "simple-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Prancheta_4-2_0ba9a647-9758-4d1d-b2f9-caf02f89c9c4.png",
-        "imagemobile": "shopify:\/\/shop_images\/KPRO_07_34186099-ceda-42a8-9c2c-5ce2e17f94b8.png",
-        "link": "",
-        "bottompadding": "",
-        "toppadding": "",
-        "buttontext": ""
-      }
-    },
     "judgeme_section_review_widget_2ec6": {
       "type": "apps",
       "blocks": {
@@ -220,13 +144,6 @@
     "main",
     "554fba48-156d-4eaf-8eb0-001ce3fa7541",
     "product-content",
-    "24623d44-bdc1-4fc5-b8a4-110b0648a5ec",
-    "78dc7512-1ed7-4bbb-9d46-c83b1daf3397",
-    "e3dea522-ca0c-46f2-b7c9-1bb88868104b",
-    "b02d0662-f0ab-4efe-a837-07e73c42a2fd",
-    "bacc29e3-791c-49de-8ba6-74e2b9138328",
-    "5d9a25d5-f2df-4935-ae7c-febb4bd226a7",
-    "d803f0fc-6a3d-42b4-aa97-a6684870e9c8",
     "judgeme_section_review_widget_2ec6"
   ]
 }
