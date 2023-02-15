@@ -85,10 +85,17 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
-    {%- comment -%}Preload important resources{%- endcomment -%}
-    <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
-    <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
-    <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+    {% if false %}
+      {%- comment -%}Preload important resources{%- endcomment -%}
+      <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+      <link rel="preload" as="script" href="{{ 'vendor.js' | asset_url }}">
+      <link rel="preload" as="script" href="{{ 'theme.js' | asset_url }}">
+    {% else %}
+      {% comment %} Dmitrii: 2 JavaScripts minified with Babel and concatenated with assets/concat_js.sh {% endcomment %}
+      <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+      <link rel="preload" as="script" href="{{ 'bundle.min.js' | asset_url }}">
+    {% endif %}
+
 
     {%- comment -%}
       IMPLEMENTATION NOTE: for improving performance, Focal tries to preload images on known pages (such as blog page,
@@ -116,9 +123,14 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
-    <script src="{{ 'vendor.js' | asset_url }}" defer></script>
-    <script src="{{ 'theme.js' | asset_url }}" defer></script>
-    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+    {% if false %}
+      <script src="{{ 'vendor.js' | asset_url }}" defer></script>
+      <script src="{{ 'theme.js' | asset_url }}" defer></script>
+      <script src="{{ 'custom.js' | asset_url }}" defer></script>
+    {% else %}
+      {% comment %} Dmitrii: those 3 minified with Babel and concatenated with assets/concat_js.sh {% endcomment %}
+      <script src="{{ 'bundle.min.js' | asset_url }}" defer></script>
+    {% endif %}
 
     {{ content_for_header }}
     {% render 'judgeme_core' %}
