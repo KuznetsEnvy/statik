@@ -1,6 +1,7 @@
 <div class="stress-free-shopping">
 
-  <img width="200px" src="{{ 'stars.png' | asset_img_url:'x1080' }}">
+  {% assign media = images['stars.png'] %}
+  <img loading="lazy" sizes="200px" style="width:200px;" {% render 'image-attributes', image: media, sizes: '200,400,600,800' %}>
   <p class="h2" style="margin: 18px !important;"><b>Stress Free Shopping</b></p>
   <p>"Amazing customer service, I accidentally ordered 2 and they were super quick to fix my order. Fast shipping and super helpful customer service, love this store."</p>
 
@@ -34,9 +35,3 @@
     "presets": [{"name": "Stress Free Shopping"}]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
