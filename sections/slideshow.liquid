@@ -47,7 +47,7 @@
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
     }
 
-    {%- if block.settings.text_color_mobile -%}
+    {%- if block.settings.text_color_mobile != blank -%}
     @media screen and (max-width:999px) {
         #block-{{ section.id }}-{{ block.id }} {
             --heading-color: {{ block.settings.text_color_mobile.red }}, {{ block.settings.text_color_mobile.green }}, {{ block.settings.text_color_mobile.blue }};
