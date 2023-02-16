@@ -222,7 +222,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/STATIK_360_3eebf6ea-e071-4518-a96f-0a29f19b87c4.png",
-            "mobile_image": "shopify:\/\/shop_images\/360_10cd5d1e-096f-420d-882a-eb1a67bb6284.png",
+            "mobile_image": "shopify:\/\/shop_images\/360-pro-10x16.png",
             "text_position": "middle_right",
             "text_position_mobile": "bottom_center",
             "subheading": "Better. Stronger. Faster.",
@@ -243,7 +243,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ultimate-charger-banner-desk.png",
-            "mobile_image": "shopify:\/\/shop_images\/ultimate-charger-banner-mob.png",
+            "mobile_image": "shopify:\/\/shop_images\/ultimate-charger-banner-mob-10x16.png",
             "text_position": "bottom_left",
             "text_position_mobile": "bottom_center",
             "subheading": "",
@@ -264,7 +264,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/statik-banner-glogo-charge-desktop.webp",
-            "mobile_image": "shopify:\/\/shop_images\/statik-banner-glogo-charge-mobile.webp",
+            "mobile_image": "shopify:\/\/shop_images\/statik-banner-glogo-charge-mobile-10x16.jpg",
             "text_position": "bottom_right",
             "text_position_mobile": "bottom_center",
             "subheading": "Fast-charge 6 devices at once.",
@@ -285,7 +285,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/STATIK_360.png",
-            "mobile_image": "shopify:\/\/shop_images\/360.png",
+            "mobile_image": "shopify:\/\/shop_images\/360-10x16.png",
             "text_position": "middle_right",
             "text_position_mobile": "bottom_center",
             "subheading": "Charges your devices without wires getting in the way",
