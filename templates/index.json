@@ -21,7 +21,8 @@
             "button_background": "#ff2525",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         }
       },
@@ -29,7 +30,6 @@
         "template--16019067633857__c143abe6-a403-43d8-b2d2-8eab7dd02c9e-1670507647e4497b09-0"
       ],
       "settings": {
-        "mobile_text_color": "#ffffff",
         "bottompadding": "",
         "hidemobile": false,
         "hidedesktop": false,
@@ -91,7 +91,8 @@
             "button_background": "#ae00ff",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "2457107a-1027-4763-88d1-023f330e870b": {
@@ -110,7 +111,8 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "ce4919e8-1ca8-457d-a455-f12c37df1df4": {
@@ -129,7 +131,8 @@
             "button_background": "#282828",
             "button_text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "40844899-fc39-479b-9f47-40317560c49d": {
@@ -148,7 +151,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "b890c296-07eb-4c25-b64e-feab3ffc3b64": {
@@ -167,7 +171,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 28
+            "overlay_opacity": 28,
+            "text_color_mobile": ""
           }
         }
       },
@@ -179,7 +184,6 @@
         "b890c296-07eb-4c25-b64e-feab3ffc3b64"
       ],
       "settings": {
-        "mobile_text_color": "",
         "bottompadding": "",
         "hidemobile": false,
         "hidedesktop": true,
@@ -197,7 +201,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/STATIK_-_sales_-_desk_ed88e542-a0a4-4ddd-a61a-9e7708fb0286.png",
-            "mobile_image": "shopify:\/\/shop_images\/STATIK_-_sales_-_mob_65305643-280e-4995-a23e-5882b08731c9.png",
+            "mobile_image": "shopify:\/\/shop_images\/STATIK-sales-mob-10x16.png",
             "text_position": "middle_center",
             "text_position_mobile": "bottom_center",
             "subheading": "20% off usING code “Flash20”",
@@ -210,7 +214,8 @@
             "button_background": "#ae00ff",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "270c38a0-600c-4239-99e2-e0e78376dfc7": {
@@ -230,7 +235,8 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "7d56b44d-5c67-49b5-b458-714ecbc7f901": {
@@ -250,7 +256,8 @@
             "button_background": "#282828",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "1b5b2f90-ad90-4abe-b914-515d764526d9": {
@@ -270,7 +277,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         },
         "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0": {
@@ -290,7 +298,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 28
+            "overlay_opacity": 28,
+            "text_color_mobile": ""
           }
         }
       },
@@ -302,7 +311,6 @@
         "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0"
       ],
       "settings": {
-        "mobile_text_color": "#000000",
         "bottompadding": "",
         "hidemobile": false,
         "hidedesktop": false,
@@ -404,7 +412,8 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         }
       },
@@ -412,7 +421,6 @@
         "template--16019067633857__fcea1584-b7fd-4689-b1f9-63204290a7fa-1668781354d31fb467-0"
       ],
       "settings": {
-        "mobile_text_color": "#ffffff",
         "bottompadding": "15px",
         "hidemobile": false,
         "hidedesktop": false,
@@ -440,11 +448,11 @@
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#000000",
-            "text_color_mobile": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": "#ffffff"
           }
         }
       },
@@ -452,7 +460,6 @@
         "template--16019067633857__4a0db659-8dd2-4635-aa31-82976fc4765d-1668781354d31fb467-0"
       ],
       "settings": {
-        "mobile_text_color": "#ffffff",
         "bottompadding": "15px",
         "hidemobile": false,
         "hidedesktop": false,
@@ -524,7 +531,8 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
           }
         }
       },
@@ -532,7 +540,6 @@
         "template--16019067633857__50255ecb-6f53-4364-bdd5-3e55f82302c7-1668781354d31fb467-0"
       ],
       "settings": {
-        "mobile_text_color": "#000000",
         "bottompadding": "",
         "hidemobile": false,
         "hidedesktop": false,
