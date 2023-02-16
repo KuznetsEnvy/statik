@@ -1,20 +1,7 @@
 <style>
-
-  @media screen and (max-width:676px){
-
-    .heading--large-{{ section.id }}{
-  color: {{section.settings.mobile_text_color}} !important;
-}
-
-    .heading--small-{{ section.id }}{
-  color: {{section.settings.mobile_text_color}} !important;
-}
-  }
-  
-  
-.heading+.button-wrapper, .heading+.button-group, p+.button-wrapper, p+.button-group, .button-wrapper+p, .button-group+p{
-  margin-top: 15px !important;
-}
+    .heading+.button-wrapper, .heading+.button-group, p+.button-wrapper, p+.button-group, .button-wrapper+p, .button-group+p{
+        margin-top: 15px !important;
+    }
 
   
   #shopify-section-{{ section.id }} {
@@ -37,7 +24,7 @@
         {%- assign section_items_alignment = 'flex-end' -%}
     {%- endcase -%}
 
-  {%- case text_position_mobile -%}
+    {%- case text_position_mobile -%}
       {%- when 'top' -%}
         {%- assign section_items_alignment_mobile = 'flex-start' -%}
       {%- when 'middle' -%}
@@ -55,13 +42,23 @@
 
       --section-blocks-alignment: {{ section_items_alignment }};
       --section-blocks-alignment-mobile: {{ section_items_alignment_mobile }};
+      --section-blocks-alignment-pocket: {{ section_items_alignment_mobile }};
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
     }
+
+    {%- if block.settings.text_color_mobile -%}
+    @media screen and (max-width:999px) {
+        #block-{{ section.id }}-{{ block.id }} {
+            --heading-color: {{ block.settings.text_color_mobile.red }}, {{ block.settings.text_color_mobile.green }}, {{ block.settings.text_color_mobile.blue }};
+            --text-color: {{ block.settings.text_color_mobile.red }}, {{ block.settings.text_color_mobile.green }}, {{ block.settings.text_color_mobile.blue }};
+        }
+    }
+    {%- endif -%}
   {%- endfor -%}
 </style>
 
-<div class="{% if section.settings.hidemobile %}hide-mobile{% elsif section.settings.hidedesktop %}hide-desktop{% endif %}">
+<div class="{% if section.settings.hidemobile %}hidden-pocket{% elsif section.settings.hidedesktop %}hidden-lap-and-up{% endif %}">
 <section class="section section--flush">
   <slide-show reveal-on-scroll {% if section.settings.autoplay %}auto-play{% endif %} transition-type="{{ section.settings.transition_type | escape }}" class="slideshow slideshow--{{ section.settings.section_height }}">
     <div class="slideshow__slide-list">
@@ -178,8 +175,8 @@
               {%- assign text_alignment_mobile = block.settings.text_position_mobile | split: '_' | first -%}
               {%- assign text_position_mobile = block.settings.text_position_mobile | split: '_' | last -%}
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment_mobile }} vertical-breather">
-                <div class="content-box content-box--medium content-box--text-{{ text_position_mobile }} content-box--{{ text_position_mobile }} text-container">
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} slideshow__text-wrapper--pocket-{{ text_alignment_mobile }} vertical-breather">
+                <div class="content-box content-box--medium content-box--text-{{ text_position }}  content-box--text-pocket-{{ text_position_mobile }} content-box--{{ text_position }} content-box--pocket-{{ text_position_mobile }} text-container">
                   {{- section_content -}}
                 </div>
               </div>
@@ -233,27 +230,22 @@
   "name": "Slideshow",
   "class": "shopify-section--slideshow",
   "max_blocks": 5,
-  "settings": [{
-          "type": "text",
-          "id": "mobile_text_color",
-          "label": "Mobile Text Color",
-          "default": "#000000"
-        },{
+  "settings": [
+    {
       "type": "text",
       "id": "bottompadding",
       "label": "Bottom Padding"
-      },
-    {
+    }, {
       "type":"checkbox",
       "id":"hidemobile",
       "label": "hidemobile",
       "default": false
-    },{
+    }, {
       "type":"checkbox",
       "id":"hidedesktop",
       "label": "hidedesktop",
       "default": false
-    },{
+    }, {
       "type": "select",
       "id": "section_height",
       "label": "Section height",
@@ -261,20 +253,16 @@
         {
           "value": "auto",
           "label": "Original image ratio"
-        },
-        {
+        }, {
           "value": "small",
           "label": "Small"
-        },
-        {
+        }, {
           "value": "medium",
           "label": "Medium"
-        },
-        {
+        }, {
           "value": "large",
           "label": "Large"
-        },
-        {
+        }, {
           "value": "fit",
           "label": "Fit screen height"
         }
@@ -290,12 +278,10 @@
         {
           "value": "sweep",
           "label": "Sweep"
-        },
-        {
+        }, {
           "value": "reveal",
           "label": "Reveal"
-        },
-        {
+        }, {
           "value": "fade",
           "label": "Fade"
         }
@@ -347,7 +333,7 @@
           "type": "image_picker",
           "id": "mobile_image",
           "label": "Mobile image",
-          "info": "1000 x 1400px .jpg recommended. If none is set, desktop image will be used."
+          "info": "1000 x 1600px is used for other images. If none is set, desktop image will be used."
         },
         {
           "type": "header",
@@ -510,6 +496,14 @@
           "step": 1,
           "unit": "%",
           "default": 30
+        },
+        {
+          "type": "header",
+          "content": "Override colors for mobile"
+        }, {
+          "type": "color",
+          "id": "text_color_mobile",
+          "label": "Text"
         }
       ]
     }
