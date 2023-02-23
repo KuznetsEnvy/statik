@@ -77,6 +77,7 @@
       "blocks": {
         "c4da9aca-20c9-4d20-88bd-bfa976a59fe6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "mobile_image": "shopify:\/\/shop_images\/STATIK_-_sales_-_mob_65305643-280e-4995-a23e-5882b08731c9.png",
             "text_position": "bottom_center",
@@ -199,6 +200,7 @@
       "blocks": {
         "6dc8c5da-a499-4a32-b71b-3f3c45b709fa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/STATIK_-_sales_-_desk_ed88e542-a0a4-4ddd-a61a-9e7708fb0286.png",
             "mobile_image": "shopify:\/\/shop_images\/STATIK-sales-mob-10x16.png",
