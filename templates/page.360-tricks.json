@@ -7,8 +7,22 @@
         "page_width": "large"
       }
     },
+    "2d298eb1-df6b-47a6-ba57-0dae39e2a769": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video_url": "https:\/\/vimeo.com\/806020624",
+        "background_type": "full_width",
+        "video_size": "auto",
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "99b20540-7fb5-4d49-9f60-973797af7b2c": {
           "type": "question",
@@ -80,6 +94,7 @@
   },
   "order": [
     "main",
+    "2d298eb1-df6b-47a6-ba57-0dae39e2a769",
     "faq"
   ]
 }
