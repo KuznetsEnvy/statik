@@ -303,6 +303,27 @@
             "overlay_opacity": 28,
             "text_color_mobile": ""
           }
+        },
+        "34a7e654-cf05-40cd-bd00-169eca1b5ab1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-360-pro-desktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-360-pro-mobile.png",
+            "text_position": "middle_center",
+            "text_position_mobile": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/products\/statik-360-pro",
+            "button_2_text": "MORE DETAILS",
+            "button_2_link": "https:\/\/statikco.com\/products\/statik-360-pro\/shopify-section-template--16100033626305__product-content",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "text_color_mobile": ""
+          }
         }
       },
       "block_order": [
@@ -310,7 +331,8 @@
         "270c38a0-600c-4239-99e2-e0e78376dfc7",
         "7d56b44d-5c67-49b5-b458-714ecbc7f901",
         "1b5b2f90-ad90-4abe-b914-515d764526d9",
-        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0"
+        "template--16019067633857__8f06bd98-8f69-45cc-a24d-4715f7109015-16684572352e4dceb2-0",
+        "34a7e654-cf05-40cd-bd00-169eca1b5ab1"
       ],
       "settings": {
         "bottompadding": "",
