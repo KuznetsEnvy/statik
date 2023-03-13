@@ -15112,3 +15112,44 @@ shopify-payment-terms {
 .slideshow__slide--globo-charge .button.button--primary:focus {
   background: linear-gradient( 161deg, rgb(66,57,136) 0%, rgb(149,64,141) 100%) center;
 }
+
+#block-template--16122010304705__8f06bd98-8f69-45cc-a24d-4715f7109015-34a7e654-cf05-40cd-bd00-169eca1b5ab1 {
+  /* 360 Pro slide – Homepage slideshow */
+  .slideshow__slide-inner .container {
+    margin-top: 8rem;
+    @include lap-and-up {
+      margin-top: 12rem;
+    }
+
+    .button-group {
+      .button-group__wrapper {
+        @include pocket {
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .button {
+        border-radius: 0;
+
+        @include pocket {
+          min-width: 11rem;
+        }
+      }
+      .button:nth-child(2) {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+      }
+      .button:hover {
+        color: black;
+      }
+      .button:nth-child(2):not(:hover) {
+        background-image: none;
+      }
+    }
+
+
+  }
+}
