@@ -288,8 +288,8 @@
         "60da6a05-7f62-4af1-a1d3-f0befe718c1d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-ultimate-charger-desktop.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner-ultimate-charger-mobile.png",
+            "image": "shopify:\/\/shop_images\/banner-ultimate-charger-mobile.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner-ultimate-charger-desktop.png",
             "text_position": "middle_center",
             "text_position_mobile": "middle_center",
             "subheading": "",
